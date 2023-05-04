@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'PP Right Sans';
+    src: url(../../assets/fonts/PPRightSans-Medium.otf);
+}
+
+.background-line {
+    position: relative;
+    padding-block: 6rem;
+    background: #131313;
+    background-image: url('../../assets/images/about-bg.png');
+    background-repeat:round;
+    font-size: 50px;
+}
+
+.about-title {
+    font-family: 'PP Mori';
+    font-style: italic;
+    font-weight: 400;
+    color: #D9D9D9;
+    margin-right: 2rem;
+    margin-left: 4rem;
+}
+
+.mouse-container {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    position: absolute;
+    right: 50px;
+    top: 40%;
+    max-width: 25px;
+}
+
+.mouse-container p{
+    margin-top: 32px;
+    font-family: 'PP Mori';
+    font-style: normal;
+    font-weight: 475;
+    font-size: 13px;
+    line-height: 14px;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+@media only screen and (max-width: 650px) {
+    .nav-list {
+        display: none;
+    }
+    .mouse-container {
+        max-width: 15px;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .background-line {
+        font-size: 90px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .background-line {
+        font-size: 180px;
+    }
+}
+
+/* ANIMATIONS */
+
+.bounce {
+    animation: bounce 2s ease infinite;
+  }
+  @keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-25px);}
+	60% {transform: translateY(-10px);}
+}
+
+@keyframes fadeInLeft {
+0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+}
+100% {
+    opacity: 1;
+    transform: none;
+}
+} 
+
+.fadeInLeft {
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+.fadeInLeft2 {
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}

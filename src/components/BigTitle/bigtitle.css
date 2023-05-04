@@ -1,0 +1,21 @@
+.bigtitle-first {
+    font-family: 'PP Right Sans';
+    font-style: italic;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-left: 4rem;
+}
+
+.bigtitle-second {
+    font-family: 'PP Mori';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.margin-top {
+    margin-top: 6rem;
+}
+
+.bigtitle-projects {
+    visibility: hidden;
+}

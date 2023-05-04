@@ -1,0 +1,59 @@
+footer {
+    text-transform: uppercase;
+    font-family: 'PP Mori';
+    font-style: normal;
+    padding-inline: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    background: #131313;
+    background-image: url('../../assets/images/bg-line.png');
+    background-repeat: round;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    gap:40px; 
+}
+
+.row {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.column {
+    display: flex;
+    flex-flow: column wrap;
+    gap:20px;
+}
+
+footer h3{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+footer h5 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+footer p {
+    font-size: 14px;
+    color: rgb(181, 180, 180);
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    footer {
+        padding-inline: 2rem;
+    }
+    footer h3 {
+        font-size: 22px;
+    }
+    footer h5 {
+        font-size: 12px;
+    }
+    footer p {
+        font-size: 10px;
+    }
+}

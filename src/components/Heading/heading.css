@@ -1,0 +1,32 @@
+.heading {
+    font-family: 'PP Mori';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 157px;
+}
+
+.margin {
+    margin-left: 4rem;
+}
+
+.heading span {
+    margin-right: 10px;
+    font-family: 'PP Right Sans';
+    font-style: italic;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1150px) {
+    .heading {
+        font-size: 75px;
+        line-height: 75px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .heading {
+        font-size: 45px;
+        line-height: 45px;
+    }
+}

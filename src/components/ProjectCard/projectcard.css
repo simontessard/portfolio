@@ -1,0 +1,52 @@
+.project h4 {
+    font-family: 'PP Mori';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+}
+
+.project p {
+    margin-top: 15px;
+}
+
+.project-heading {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap:8px;
+    flex-flow: row wrap;
+}
+
+.project:hover .project-image{
+    transform: scale(1.25) rotate(2deg);
+}
+
+.project-image {
+  border-radius: inherit;
+  transition: all ease-in-out .4s;
+}
+
+.project-illustration {
+    overflow: hidden;
+    max-width: 430px;
+    max-height: 520px;
+}
+
+@media only screen and (max-width: 650px) {
+    .project-image {
+        width: 100%;
+        
+    }
+    .project-heading{
+        margin-top:8px;
+    }
+    .project-heading .contact-button{
+        flex:100%;
+        order: -5;
+        padding-top: 8px;
+    }
+}
+
+
+

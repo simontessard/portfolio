@@ -1,0 +1,41 @@
+.skill {
+    position: relative;
+}
+
+.skill h5 {
+    font-family: 'PP Mori';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+}
+
+.skill p {
+    margin-top: 8px;
+    font-family: 'PP Mori';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.skill-text {
+    position: absolute;
+    top: 64%;
+    left: 70%;
+    padding: 14px;
+    max-width: 250px;
+}
+
+@media only screen and (max-width: 1350px) {
+    .skill-text {
+        left: 40%;
+    }
+}
+
+.skill { transition: all .3s ease-in-out; }
+.skill:hover {
+    transform: scale(1.1);
+}
+
+

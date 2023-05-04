@@ -1,0 +1,28 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #131313;
+    padding-block: 12rem;
+    color: white;
+}
+
+.skills-container {
+    margin-top: 8rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap:16rem;
+}
+
+@media only screen and (max-width: 1350px) {
+    .skills-container {
+        flex-flow: column wrap;
+        gap:10rem;
+    }
+    .skills {
+        padding-top: 6rem;
+    }
+}
+

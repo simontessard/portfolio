@@ -1,0 +1,43 @@
+
+.container-projects {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    gap:250px;
+    padding-block: 6rem;
+    padding-inline: 1rem;
+}
+
+.container-projects .column{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    gap:175px;
+}
+
+.darkmode {
+    background-color: #131313;
+    color:white;
+    padding-block: 1rem;
+}
+
+.reverse {
+    flex-direction: column-reverse;
+}
+
+.container-projects .column:first-child{
+    margin-top: 12rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-projects {
+        gap:75px;
+    }
+    .container-projects .column:first-child {
+        margin-top: 0;
+    }
+    .container-projects .column {
+        gap:75px;
+        padding-top: 0;
+    }
+}

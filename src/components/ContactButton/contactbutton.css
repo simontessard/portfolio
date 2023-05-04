@@ -1,0 +1,33 @@
+.contact-button {
+    font-family: 'PP Mori';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    border:0;
+    background-color: white;
+    position:relative;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.black {
+  color:black;
+}
+
+.contact-button::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .contact-button:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

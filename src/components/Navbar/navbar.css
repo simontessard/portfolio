@@ -1,0 +1,147 @@
+header {
+    background: #131313;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    color: white ;
+    padding: 30px 50px;
+}
+.header-logo {
+    border-radius: 50%;
+    padding: 8px;
+    height: 12px;
+    width: 12px;
+    text-align: center;
+}
+
+.navlink {
+    text-decoration: none;
+    color:white;
+    
+}
+.navlink:hover {
+    box-shadow: inset 100px 0 0 0 white;
+    color: black;
+}
+
+.link-bar {
+    box-shadow: inset 0 0 0 0 white;
+    margin: 0 -.25rem;
+    padding: .5rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.link-bar:hover {
+    box-shadow: inset 100px 0 0 0 white;
+    color: black;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-hamburger {
+    width: 25px;
+    height: 25px;
+    display: none;
+    cursor: pointer;
+}
+
+.vertical-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: none;
+    gap:10px;
+    padding: 25px;
+    color: white;
+}
+
+@media only screen and (max-width: 650px) {
+    .nav-list {
+        display: none;
+    }
+    .nav-hamburger {
+        display: block;
+    }
+    .vertical-navbar {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .nav-list {
+        gap: 90px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .nav-list {
+        gap: 180px;
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+    } 
+    
+    .fadeInRight {
+        animation-name: fadeInRight;
+        animation-duration: 2s;
+        animation-fill-mode: both;
+    }
+
+.bounce-in-top {
+	animation: bounce-in-top 1.2s both;
+}
+
+  @keyframes bounce-in-top {
+    0% {
+    transform: translateY(-500px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+    }
+    38% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+    }
+    55% {
+    transform: translateY(-65px);
+    animation-timing-function: ease-in;
+    }
+    72% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    }
+    81% {
+    transform: translateY(-28px);
+    animation-timing-function: ease-in;
+    }
+    90% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    }
+    95% {
+    transform: translateY(-8px);
+    animation-timing-function: ease-in;
+    }
+    100% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    }
+  }

@@ -1,0 +1,47 @@
+.about {
+    padding-block: 8rem;
+}
+
+.about p {
+    font-family: 'PP Mori';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+    position: absolute;
+    top: 25%;
+    left:28%;
+}
+
+.about-text {
+    margin-right: 5rem;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.contact-button-1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1300px) {
+    .about p {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .about p {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .about-text img {
+        width: 250px;
+    }
+    .about p {
+        font-size: 16px;
+    }
+}
+
