@@ -12,13 +12,13 @@ function About() {
         <div id="whitebg"></div>
         <div id="blackbg"></div>
         <p className="aboutText">
-          Développeur junior front-end. J'ai obtenu un BTS SIO Option : Développeur. Je recherche
-          une alternance. in at rutrum orci. Turpis ullamcorper convallis gravida penatibus gravida
-          vitae. Elit morbi in volutpa pulvinar dui venenatis cursus. Eget felis consequat donec
-          arcu. Morbi in eleifend adipiscing faucibus amet natoque neque. Id pulvinar tellus quam
-          ipsum nec hendrerit nisl amet eu. Ante placerat etiam neque sed sit. Ultrices vel amet
-          vitae dictum semper. Tempor nunc aliquet penatibus in non purus facilisis. In eget elit
-          eget nisi quisque diam mattis.
+          Développeur junior front-end, je suis titulaire d'un BTS SIO, Option : Développeur et d'un
+          Bachelor OpenClassrooms "Développeur d'application - JavaScript React", je me prépare
+          actuellement à poursuivre mes études en Master en alternance. J'ai acquis une expérience
+          en développement web, en travaillant sur des projets divers et variés. Constamment à la
+          recherche de nouveaux défis pour améliorer mes compétences, j'aspire à participer à des
+          projets dans un milieu professionnel. Si vous êtes à la recherche d'un développeur pour
+          votre entreprise ou votre projet, n'hésitez pas à me contacter.
         </p>
       </div>
       <div className="contact-button-1">
