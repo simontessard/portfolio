@@ -13,6 +13,7 @@ const Routing = () => {
     <BrowserRouter>
       <Navbar />
       <Routes>
+        <Route path="*" element={<Home />} />
         <Route path="/portfolio-2023" element={<Home />} />
         <Route path="/portfolio-2023/projects" element={<ProjectsList />} />
         <Route path="/portfolio-2023/project/:name" element={<Project />} />
