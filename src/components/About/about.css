@@ -43,7 +43,9 @@
 
 .contact-button-1 {
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
+    padding-top: 2rem;;
+    padding-inline: 4rem;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -55,6 +57,8 @@
 @media only screen and (max-width: 1000px) {
     .aboutText  {
         font-size: 24px;
+        margin-inline: 4rem;
+        margin-top: 6rem;
     }
 }
 

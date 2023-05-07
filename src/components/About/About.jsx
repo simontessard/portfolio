@@ -22,6 +22,7 @@ function About() {
         </p>
       </div>
       <div className="contact-button-1">
+        <ContactButton text="↘ TÉLÉCHARGEZ MON CV" />
         <ContactButton text="↗ CONTACTEZ-MOI" />
       </div>
     </div>
