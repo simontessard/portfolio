@@ -69,13 +69,22 @@
         margin-top: 4rem;
     }
     #blackbg, #whitebg {
-        height: 300px;
+        height: 420px;
     }
     #blackbg {
         width: 100%;
     }
     .about-text-container {
         margin-bottom: 2rem;
+    }
+    .contact-button-1 {
+        padding-top: 1rem;;
+        padding-inline: 1rem;
+        flex-direction: column;
+        gap:25px;
+    }
+    .about {
+        padding-bottom: 3rem;
     }
 }
 
