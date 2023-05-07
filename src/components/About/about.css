@@ -2,21 +2,39 @@
     padding-block: 8rem;
 }
 
-.about p {
+.about-text-container {
+    margin-right: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 35rem;
+}
+
+.aboutText {
+    margin-top: 10rem;
+    margin-inline: 10rem;
+    position:absolute; 
+    mix-blend-mode: difference;
+    color: white;
+    z-index: 3;
     font-family: 'PP Mori';
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
-    color: #000000;
-    position: absolute;
-    top: 25%;
-    left:28%;
+    font-size: 35px;
 }
 
-.about-text {
-    margin-right: 5rem;
-    margin-top: 4rem;
-    position: relative;
+#whitebg { 
+    background: white; 
+    width:100%;
+    z-index:1;
+    height:600px;
+    position: absolute;
+}
+
+#blackbg { 
+    background: black; 
+    width:600px; 
+    z-index:2;
+    height:600px;
+    position: absolute;
 }
 
 .contact-button-1 {
@@ -25,23 +43,31 @@
 }
 
 @media only screen and (max-width: 1300px) {
-    .about p {
+    .aboutText  {
         font-size: 30px;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    .about p {
+    .aboutText  {
         font-size: 24px;
     }
 }
 
 @media only screen and (max-width: 690px) {
-    .about-text img {
-        width: 250px;
-    }
-    .about p {
+    .aboutText  {
         font-size: 16px;
+        margin-inline: 2rem;
+        margin-top: 4rem;
+    }
+    #blackbg, #whitebg {
+        height: 400px;
+    }
+    #blackbg {
+        width: 100%;
+    }
+    .about-text-container {
+        margin-bottom: 20rem;
     }
 }
 
