@@ -11,15 +11,15 @@ function About() {
       <div className="about-text-container">
         <div id="whitebg"></div>
         <div id="blackbg"></div>
-        <div className="aboutText">
+        <p className="aboutText">
           Développeur junior front-end. J'ai obtenu un BTS SIO Option : Développeur. Je recherche
           une alternance. in at rutrum orci. Turpis ullamcorper convallis gravida penatibus gravida
-          vitae. Elit morbi in volutpat pulvinar dui venenatis cursus. Eget felis consequat donec
+          vitae. Elit morbi in volutpa pulvinar dui venenatis cursus. Eget felis consequat donec
           arcu. Morbi in eleifend adipiscing faucibus amet natoque neque. Id pulvinar tellus quam
           ipsum nec hendrerit nisl amet eu. Ante placerat etiam neque sed sit. Ultrices vel amet
           vitae dictum semper. Tempor nunc aliquet penatibus in non purus facilisis. In eget elit
           eget nisi quisque diam mattis.
-        </div>
+        </p>
       </div>
       <div className="contact-button-1">
         <ContactButton text="↗ CONTACTEZ-MOI" />

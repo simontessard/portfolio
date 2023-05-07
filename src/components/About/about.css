@@ -1,17 +1,19 @@
 .about {
     padding-block: 8rem;
+    margin-right: 3rem;
 }
 
 .about-text-container {
-    margin-right: 5rem;
-    margin-top: 4rem;
-    margin-bottom: 35rem;
+    margin-block: 4rem;
+    position: relative;
 }
 
 .aboutText {
     margin-top: 10rem;
     margin-inline: 10rem;
-    position:absolute; 
+    position:absolute;
+    top:-50px;
+    right:0 ;
     mix-blend-mode: difference;
     color: white;
     z-index: 3;
@@ -34,7 +36,7 @@
     width:600px; 
     z-index:2;
     height:600px;
-    position: absolute;
+    position: relative;
 }
 
 .contact-button-1 {
@@ -61,13 +63,13 @@
         margin-top: 4rem;
     }
     #blackbg, #whitebg {
-        height: 400px;
+        height: 300px;
     }
     #blackbg {
         width: 100%;
     }
     .about-text-container {
-        margin-bottom: 20rem;
+        margin-bottom: 2rem;
     }
 }
 
