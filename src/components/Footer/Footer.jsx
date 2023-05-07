@@ -1,5 +1,7 @@
 import './footer.css'
 
+import { NavLink } from 'react-router-dom'
+
 function BigElement({ text }) {
   return <h3>{text}</h3>
 }
@@ -17,8 +19,12 @@ function Footer() {
           <BigElement text="↗ 07 83 26 36 84" />
         </div>
         <div className="column">
-          <SmallElement text="↗ Github" />
-          <SmallElement text="↗ LinkedIn" />
+          <NavLink to="https://github.com/simontessard">
+            <SmallElement text="↗ Github" />
+          </NavLink>
+          <NavLink to="https://www.linkedin.com/in/simon-tessard-138733198/">
+            <SmallElement text="↗ LinkedIn" />
+          </NavLink>
           <SmallElement text="Mentions légales" />
         </div>
       </div>

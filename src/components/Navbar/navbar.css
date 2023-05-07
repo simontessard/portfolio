@@ -19,11 +19,11 @@ header {
     text-align: center;
 }
 
-.navlink {
+a {
     text-decoration: none;
     color:white;
-    
 }
+
 .navlink:hover {
     box-shadow: inset 100px 0 0 0 white;
     color: black;
