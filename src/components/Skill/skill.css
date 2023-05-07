@@ -27,6 +27,10 @@
     max-width: 250px;
 }
 
+.skill img {
+    max-width: 250px;
+}
+
 @media only screen and (max-width: 1350px) {
     .skill-text {
         left: 40%;
