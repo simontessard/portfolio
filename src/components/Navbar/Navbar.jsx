@@ -11,12 +11,12 @@ function Navbar() {
   return (
     <header>
       <div className="header-container">
-        <NavLink to="/" className="navlink header-logo bounce-in-top link-bar">
+        <NavLink to="/portfolio-2023" className="navlink header-logo bounce-in-top link-bar">
           S
         </NavLink>
         <ul className="nav-list fadeInRight">
           <li>
-            <NavLink to="/projects" className="navlink link-bar ">
+            <NavLink to="/portfolio-2023/projects" className="navlink link-bar ">
               PROJETS
             </NavLink>
           </li>
