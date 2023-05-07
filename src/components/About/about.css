@@ -13,8 +13,7 @@
     margin-top: 10rem;
     margin-inline: 10rem;
     position:absolute;
-    top:-50px;
-    right:0 ;
+    top:0;
     mix-blend-mode: difference;
     color: white;
     z-index: 3;
