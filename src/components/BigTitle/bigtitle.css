@@ -19,3 +19,9 @@
 .bigtitle-projects {
     visibility: hidden;
 }
+
+@media only screen and (max-width: 650px) {
+    .bigtitle-first {
+        margin-left: 1rem;
+    }
+}
