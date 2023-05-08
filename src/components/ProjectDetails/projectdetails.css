@@ -26,6 +26,9 @@
     display: flex;
     flex-direction: column;
     gap: 5rem;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 22px; 
 }
 
 .project-first-row {
@@ -47,14 +50,13 @@
 }
    
 .project-description {
-    line-height:18px;
     flex: 60%;
 }
 
 .project-explication {
-    line-height:18px;
     flex: 3;
     min-width: 250px;
+    text-align: justify;
 }
 
 .project-first-picture {
@@ -82,5 +84,16 @@
     }
     .project-picture-container {
         flex-basis: 1;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project-information {
+        padding:3rem;
+        gap: 3rem;
+    }
+    .project-information {
+        font-size: 90%;
+        line-height: normal; 
     }
 }
