@@ -24,14 +24,14 @@ export default function ProjectDetails({
   return (
     <>
       <div className="background-line main-project">
-        <div className="column">
+        <div className="column project-details-title">
           <BigTitle first="PROJET:" second={name.toUpperCase()} margin={true} />
           <GithubLogo link={link} />
+          <MouseScroll />
         </div>
         <div className="project-picture-container">
           <img src={mainIllustration} alt="" className="project-picture" />
         </div>
-        <MouseScroll />
       </div>
       <div className="project-information">
         <div className="project-first-row">

@@ -68,6 +68,10 @@
     gap:50px;
 }
 
+.project-details-title {
+    position: relative;
+}
+
 .project-details-illustration {
     object-fit: cover;
     width: 100%;
