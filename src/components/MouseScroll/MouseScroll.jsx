@@ -1,3 +1,5 @@
+import './mouse-scroll.css'
+
 import mouse from '../../assets/icons/mouse.svg'
 import arrow from '../../assets/icons/down-arrow.svg'
 

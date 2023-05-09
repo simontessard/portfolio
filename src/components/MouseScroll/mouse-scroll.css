@@ -1,0 +1,39 @@
+.mouse-container {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    position: absolute;
+    right: 50px;
+    top: 30%;
+    max-width: 25px;
+}
+
+.mouse-container p{
+    margin-top: 32px;
+    font-family: 'PP Mori';
+    font-style: normal;
+    font-weight: 475;
+    font-size: 13px;
+    line-height: 14px;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+.bounce {
+    animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-25px);}
+	60% {transform: translateY(-10px);}
+}
+
+@media only screen and (max-width: 650px) {
+    .mouse-container {
+        max-width: 15px;
+        top:20%;
+        right:30px;
+    }
+}
