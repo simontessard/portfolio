@@ -5,6 +5,7 @@ import './skills.css'
 
 import skillPicture from '../../assets/images/skill-picture.png'
 import serverPicture from '../../assets/images/servers.jpg'
+import designPicture from '../../assets/images/design.jpg'
 
 function Skills() {
   return (
@@ -17,7 +18,7 @@ function Skills() {
           image={skillPicture}
         />
         <Skill title="BACK" image={serverPicture} description="PHP, Java, API REST" />
-        <Skill title="UI/UX" image={skillPicture} description="Figma, Maquette, Aléatoire" />
+        <Skill title="UI/UX" image={designPicture} description="Figma, Maquette, Aléatoire" />
       </div>
     </div>
   )
