@@ -20,7 +20,6 @@ function Navbar() {
               PROJETS
             </NavLink>
           </li>
-          <li>À PROPOS</li>
           <li>CONTACT</li>
         </ul>
         {!open ? (
@@ -32,7 +31,6 @@ function Navbar() {
       {open && (
         <div className="vertical-navbar">
           <p>PROJETS</p>
-          <p>À PROPOS</p>
           <p>CONTACT</p>
         </div>
       )}
