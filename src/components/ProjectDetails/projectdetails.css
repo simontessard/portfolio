@@ -65,7 +65,8 @@
 .project-second-row {
     display: flex;
     flex-flow: row wrap;
-    gap:50px;
+    gap:75px;
+    align-items: center;
 }
 
 .project-details-title {
