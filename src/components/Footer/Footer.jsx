@@ -11,10 +11,10 @@ function Footer() {
           <h3> ↗ 07 83 26 36 84 </h3>
         </div>
         <div className="column">
-          <NavLink to="https://github.com/simontessard">
+          <NavLink target={'_blank'} to="https://github.com/simontessard">
             <h5> ↗ Github </h5>
           </NavLink>
-          <NavLink to="https://www.linkedin.com/in/simon-tessard-138733198/">
+          <NavLink target={'_blank'} to="https://www.linkedin.com/in/simon-tessard-138733198/">
             <h5> ↗ LinkedIn </h5>
           </NavLink>
         </div>
