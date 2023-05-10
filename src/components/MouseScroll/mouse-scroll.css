@@ -79,3 +79,23 @@
         right: -20px;
     }
 }
+
+.mouse-scroll-up:hover img:nth-child(1) {
+    translate: 0% -150%;
+}
+
+.mouse-scroll-up:hover img:nth-child(2) {
+    scale: 140%;
+}
+
+.mouse-scroll-up:hover p:nth-child(3) {
+    translate: 0% 150%;
+}
+
+.mouse-scroll-up img:nth-child(1), .mouse-scroll-up p:nth-child(3) {
+    transition: all 1500ms ease;
+  }
+
+.mouse-scroll-up img:nth-child(2) {
+    transition: all 1000ms ease;
+}
