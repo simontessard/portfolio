@@ -20,9 +20,9 @@ const scrollToTop = () => {
   })
 }
 
-export function MouseScrollUp() {
+export function MouseScrollUp({ darkmode }) {
   return (
-    <div className="mouse-scroll-up-container">
+    <div className={`mouse-scroll-up-container ${darkmode ? 'mouse-darkmode' : ''}`}>
       <div className="mouse-scroll-up bounce" onClick={scrollToTop}>
         <img className="about-mouse reverse-arrow" src={arrow} alt="Mouse logo" />
         <img className="about-mouse" src={mouse} alt="Mouse logo" />

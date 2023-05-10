@@ -46,6 +46,14 @@
     filter: invert(1);
 }
 
+.dark-background {
+    background-color: #131313;
+}
+
+.mouse-darkmode {
+    filter: invert(1);
+}
+
 .reverse-arrow {
     transform: rotate(-180deg);
 }

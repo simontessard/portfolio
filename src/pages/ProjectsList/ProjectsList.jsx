@@ -1,6 +1,6 @@
 import ProjectsContainer from '../../components/ProjectsContainer/ProjectsContainer'
 import BigTitle from '../../components/BigTitle/BigTitle'
-import { MouseScroll } from '../../components/MouseScroll/MouseScroll'
+import { MouseScroll, MouseScrollUp } from '../../components/MouseScroll/MouseScroll'
 
 function ProjectsList() {
   return (
@@ -10,6 +10,9 @@ function ProjectsList() {
         <MouseScroll />
       </div>
       <ProjectsContainer darkmode={true} className="test" />
+      <div className="mouse-scrollup dark-background">
+        <MouseScrollUp darkmode={true} />
+      </div>
     </div>
   )
 }
