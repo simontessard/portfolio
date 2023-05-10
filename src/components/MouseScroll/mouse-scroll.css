@@ -15,9 +15,11 @@
     font-style: normal;
     font-weight: 475;
     font-size: 13px;
-    line-height: 14px;
     color: #FFFFFF;
     transform: rotate(-90deg);
+    position: absolute;
+    top: 65px;
+    right: -15px;
 }
 
 .bounce {
@@ -35,5 +37,9 @@
         max-width: 15px;
         top:20%;
         right:30px;
+    }
+    .mouse-container p {
+        top: 40px;
+        right: -20px;
     }
 }
