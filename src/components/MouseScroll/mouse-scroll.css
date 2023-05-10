@@ -9,7 +9,7 @@
     max-width: 25px;
 }
 
-.mouse-container p{
+.mouse-container-text {
     margin-top: 32px;
     font-family: 'PP Mori';
     font-style: normal;
@@ -20,6 +20,34 @@
     position: absolute;
     top: 65px;
     right: -15px;
+}
+
+.mouse-scroll-up-text {
+    transform: rotate(-90deg);
+    margin-top: 35px;
+    font-size: 13px;
+}
+
+.mouse-scroll-up-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.mouse-scroll-up {
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    max-width: 25px;
+    color: white;
+    filter: invert(1);
+}
+
+.reverse-arrow {
+    transform: rotate(-180deg);
 }
 
 .bounce {

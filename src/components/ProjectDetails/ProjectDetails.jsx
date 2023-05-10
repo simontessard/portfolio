@@ -1,6 +1,6 @@
 import './projectdetails.css'
 
-import MouseScroll from '../MouseScroll/MouseScroll'
+import { MouseScroll } from '../MouseScroll/MouseScroll'
 import BigTitle from '../BigTitle/BigTitle'
 import GithubLogo from '../GithubLogo/GithubLogo'
 

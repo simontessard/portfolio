@@ -1,6 +1,6 @@
 import ProjectsContainer from '../../components/ProjectsContainer/ProjectsContainer'
 import BigTitle from '../../components/BigTitle/BigTitle'
-import MouseScroll from '../../components/MouseScroll/MouseScroll'
+import { MouseScroll } from '../../components/MouseScroll/MouseScroll'
 
 function ProjectsList() {
   return (

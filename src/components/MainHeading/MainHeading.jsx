@@ -1,7 +1,7 @@
 import './mainheading.css'
 
 import BigTitle from '../BigTitle/BigTitle'
-import MouseScroll from '../MouseScroll/MouseScroll'
+import { MouseScroll } from '../MouseScroll/MouseScroll'
 
 function MainHeading() {
   return (
