@@ -47,7 +47,7 @@ export default function ProjectDetails({
           <img src={secondIllustration} alt="" className="project-details-illustration" />
           <div className="project-explication">{explication1}</div>
         </div>
-        <div className="project-second-row">
+        <div className="project-second-row second-explication">
           <div className="project-explication">{explication2}</div>
           <img src={thirdIllustration} alt="" className="project-details-illustration" />
         </div>

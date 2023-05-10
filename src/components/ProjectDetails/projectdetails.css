@@ -100,3 +100,9 @@
         line-height: normal; 
     }
 }
+
+@media only screen and (max-width: 884px) {
+    .second-explication {
+        flex-flow: column-reverse;
+    }
+}
