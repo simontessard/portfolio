@@ -78,6 +78,18 @@
         top: 40px;
         right: -20px;
     }
+    .about-mouse {
+        height: 75%;
+        width: 75%;
+    }
+    .mouse-scroll-up-text {
+        margin-top: 25px;
+        font-size:60%;
+        margin-right: 4px;
+    }
+    .mouse-scroll-up-container {
+        padding-bottom: 2rem;
+    }
 }
 
 .mouse-scroll-up:hover img:nth-child(1) {

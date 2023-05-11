@@ -6,8 +6,8 @@ import arrow from '../../assets/icons/down-arrow.svg'
 export function MouseScroll() {
   return (
     <div className="mouse-container bounce">
-      <img className="about-mouse" src={mouse} alt="Mouse logo" />
-      <img className="about-mouse" src={arrow} alt="Mouse logo" />
+      <img src={mouse} alt="Mouse logo" />
+      <img src={arrow} alt="Mouse logo" />
       <p className="mouse-container-text">SCROLL</p>
     </div>
   )

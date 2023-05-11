@@ -18,7 +18,7 @@ function Skills() {
           image={skillPicture}
         />
         <Skill title="BACK" image={serverPicture} description="PHP, Java, API REST" />
-        <Skill title="UI/UX" image={designPicture} description="Figma, Maquette, Aléatoire" />
+        <Skill title="UI/UX" image={designPicture} description="Figma, Maquette" />
       </div>
     </div>
   )
