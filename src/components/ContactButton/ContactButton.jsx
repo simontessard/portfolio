@@ -2,9 +2,9 @@ import './contactbutton.css'
 
 import { NavLink } from 'react-router-dom'
 
-function ContactButton({ text, title }) {
+function ContactButton({ text, link, title }) {
   return (
-    <NavLink to={`/portfolio-2023/project/${title}`} className="navlink black">
+    <NavLink to={`${link}${title}`} className="navlink black">
       <button className="contact-button">{text}</button>
     </NavLink>
   )

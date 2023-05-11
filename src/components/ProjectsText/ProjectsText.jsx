@@ -10,7 +10,7 @@ function ProjectsText() {
         durant mon bachelor Openclassrooms mais aussi durant mon BTS. Certains sont aussi des
         projets personnels réalisés de façon collaborative comme par exemple ce portfolio.
       </p>
-      <ContactButton text="↗ VOIR TOUS MES PROJETS" />
+      <ContactButton text="↗ VOIR TOUS MES PROJETS" link="/portfolio-2023/projects" title="" />
     </div>
   )
 }

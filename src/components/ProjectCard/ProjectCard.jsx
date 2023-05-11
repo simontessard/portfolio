@@ -10,7 +10,11 @@ function ProjectCard({ title, date, image }) {
       </div>
       <div className="project-heading">
         <h4>{title}</h4>
-        <ContactButton text="↗ VOIR LE PROJET" title={title.toLowerCase()} />
+        <ContactButton
+          text="↗ VOIR LE PROJET"
+          link="/portfolio-2023/project/"
+          title={title.toLowerCase()}
+        />
       </div>
       <p>{date}</p>
     </div>
