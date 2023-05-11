@@ -1,0 +1,11 @@
+.projects-text {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: end;
+    padding: 4rem;
+    gap:25px;
+}
+
+.projects-text p {
+    max-width: 1000px;
+}

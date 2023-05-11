@@ -30,7 +30,7 @@ function Navbar() {
       </div>
       {open && (
         <div className="vertical-navbar">
-          <p>PROJETS</p>
+          <NavLink to="/portfolio-2023/projects">PROJETS</NavLink>
           <p>CONTACT</p>
         </div>
       )}
