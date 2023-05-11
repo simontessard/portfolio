@@ -20,7 +20,11 @@ function Navbar() {
               PROJETS
             </NavLink>
           </li>
-          <li>CONTACT</li>
+          <li>
+            <NavLink to="/portfolio-2023/contact" className="navlink link-bar ">
+              CONTACT
+            </NavLink>
+          </li>
         </ul>
         {!open ? (
           <IoMenu className="nav-hamburger" onClick={() => setOpen(!open)} />
@@ -31,7 +35,7 @@ function Navbar() {
       {open && (
         <div className="vertical-navbar">
           <NavLink to="/portfolio-2023/projects">PROJETS</NavLink>
-          <p>CONTACT</p>
+          <NavLink to="/portfolio-2023/contact">CONTACT</NavLink>
         </div>
       )}
     </header>
