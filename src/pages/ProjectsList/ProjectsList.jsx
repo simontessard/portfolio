@@ -14,7 +14,7 @@ function ProjectsList() {
         <BigTitle first="MES" second="PROJETS" projectsList={true} />
         <MouseScroll />
       </div>
-      <ProjectsContainer darkmode={true} className="test" />
+      <ProjectsContainer darkmode={true} />
       <div className="mouse-scrollup dark-background">
         <MouseScrollUp darkmode={true} />
       </div>
