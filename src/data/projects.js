@@ -37,10 +37,10 @@ export const projects = [
     id: 3,
     name: 'Kasa',
     url: 'kasa',
-    illustration: 'project-first-picture.png',
+    illustration: 'project-3-illustration.png',
     illustration2: 'project-first-picture.png',
-    illustration3: 'project-first-picture.png',
-    illustration4: 'project-2-illustration-3.png',
+    illustration3: 'project-3-illustration-1.png',
+    illustration4: 'project-3-illustration-1.png',
     description:
       'Lorem ipsum dolor sit amet consectetur. Tristique nisl in at rutrum orci. Turpis ullamcorper convallis gravida penatibus gravida vitae. lutpat pulvinar dui venenatis cursus. Eget felis consequat donec arcu. Morbi in eleifend adipiscing faucibus amet natoque neque. Id pulvinar tellus quam ipsum nec hendrerit nisl amet eu. Ante placerat etiam neque sed sit. Ultrices vel amet vitae dictum semper. Tempor nunc aliquet penatibus in non purus facilisis. In eget elit eget nisi quisque diam mattis. Ultrices ullamcorper vulputate risus tortor venenatis gravida erat at venenatis. Amet nam lorem mauris enim faucibus orci in. Sodales venenatis elit dui iaculis tempus orci.',
     explication1: 'Lorem ipsum dolor sit amet consectetur. Et libero',
