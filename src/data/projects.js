@@ -6,7 +6,7 @@ export const projects = [
     illustration: 'project-2-illustration.png',
     illustration2: 'project-2-illustration-2.jpeg',
     illustration3: 'project-2-illustration-3.png',
-    illustration4: 'project-2-illustration-3.png',
+    illustration4: 'project-2-illustration-4.png',
     description:
       "Le projet consiste à créer une application web React avec un système d'authentification des utilisateurs de la banque Argent Bank. La phase 1 consiste à créer l'application web complète et responsive avec React, utiliser Redux pour gérer le state de l'application, et permettre à l'utilisateur de visiter la page d'accueil, de se connecter au système, de se déconnecter, de visualiser les informations relatives à son propre profil et de modifier son profil en conservant les données dans la base de données. Les API nécessaires ont déjà été créées par les ingénieurs back-end de la banque, et toute la documentation Swagger est disponible dans le repository.",
     explication1:
