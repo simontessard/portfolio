@@ -2,7 +2,7 @@ import './projectcard.css'
 
 import ContactButton from '../ContactButton/ContactButton'
 
-function ProjectCard({ title, date, image }) {
+function ProjectCard({ title, date, image, url }) {
   return (
     <div className="project">
       <div className="project-illustration">
@@ -10,11 +10,7 @@ function ProjectCard({ title, date, image }) {
       </div>
       <div className="project-heading">
         <h4>{title}</h4>
-        <ContactButton
-          text="↗ VOIR LE PROJET"
-          link="/portfolio-2023/project/"
-          title={title.toLowerCase()}
-        />
+        <ContactButton text="↗ VOIR LE PROJET" link={`/portfolio-2023/project/${url}`} />
       </div>
       <p>{date}</p>
     </div>
