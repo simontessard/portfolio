@@ -27,7 +27,7 @@ export default function ProjectDetails({
         <div className="column project-details-title">
           <BigTitle first="PROJET:" second={name.toUpperCase()} margin={true} />
           <GithubLogo link={link} />
-          <MouseScroll />
+          <MouseScroll project={true} />
         </div>
         <div className="project-picture-container">
           <img src={mainIllustration} alt="" className="project-picture" />

@@ -9,6 +9,10 @@
     max-width: 25px;
 }
 
+.mouse-container-project {
+    top: 70%;
+}
+
 .mouse-container-text {
     margin-top: 32px;
     font-family: 'PP Mori';
