@@ -1,7 +1,7 @@
 .projects-text {
     display: flex;
     flex-flow: column wrap;
-    align-items: end;
+    align-items: flex-end;
     padding: 4rem;
     gap:25px;
 }
