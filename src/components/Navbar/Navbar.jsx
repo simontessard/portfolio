@@ -21,7 +21,7 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/portfolio-2023/contact" className="navlink link-bar ">
+            <NavLink to="mailto:simon.tessard@gmail.com" className="navlink link-bar ">
               CONTACT
             </NavLink>
           </li>
@@ -35,7 +35,7 @@ function Navbar() {
       {open && (
         <div className="vertical-navbar">
           <NavLink to="/portfolio-2023/projects">PROJETS</NavLink>
-          <NavLink to="/portfolio-2023/contact">CONTACT</NavLink>
+          <NavLink to="mailto:simon.tessard@gmail.com">CONTACT</NavLink>
         </div>
       )}
     </header>
