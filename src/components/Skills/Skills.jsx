@@ -14,10 +14,14 @@ function Skills() {
       <div className="skills-container">
         <Skill
           title="FRONT"
-          description="HTML, CSS, SASS, Javascript, React, Tailwind, Bootstrap."
+          description="HTML, CSS, SASS, Javascript, Jest, React, TailwindCSS, Bootstrap"
           image={skillPicture}
         />
-        <Skill title="BACK" image={serverPicture} description="PHP, Java, API REST" />
+        <Skill
+          title="BACK"
+          image={serverPicture}
+          description="PHP, Java, C#, Code Igniter, API REST, MySQL, MariaBD, MongoDB"
+        />
         <Skill title="UI/UX" image={designPicture} description="Figma, Maquette" />
       </div>
     </div>
