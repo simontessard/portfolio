@@ -5,7 +5,6 @@ import './skills.css'
 
 import skillPicture from '../../assets/images/skill-picture.png'
 import serverPicture from '../../assets/images/servers.jpg'
-import designPicture from '../../assets/images/design.jpg'
 
 function Skills() {
   return (
@@ -22,7 +21,6 @@ function Skills() {
           image={serverPicture}
           description="PHP, Java, C#, Code Igniter, API REST, MySQL, MariaBD, MongoDB"
         />
-        <Skill title="UI/UX" image={designPicture} description="Figma, Maquette" />
       </div>
     </div>
   )
