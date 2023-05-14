@@ -11,6 +11,7 @@ export default function ProjectDetails({
   illustration2,
   illustration3,
   illustration4,
+  illustration5,
   categorie,
   date,
   link,
@@ -21,6 +22,7 @@ export default function ProjectDetails({
   let firstIllustration = require('../../assets/images/' + illustration2)
   let secondIllustration = require('../../assets/images/' + illustration3)
   let thirdIllustration = require('../../assets/images/' + illustration4)
+  let fourthIllustration = require('../../assets/images/' + illustration5)
   return (
     <>
       <div className="background-line main-project">
@@ -53,7 +55,7 @@ export default function ProjectDetails({
         </div>
         <div className="project-second-row">
           <div className="project-explication">{explication1}</div>
-          <img src={secondIllustration} alt="" className="project-details-illustration" />
+          <img src={fourthIllustration} alt="" className="project-details-illustration" />
         </div>
       </div>
     </>

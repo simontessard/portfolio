@@ -76,7 +76,7 @@
 .project-details-illustration {
     object-fit: cover;
     width: 100%;
-    max-width: 700px;
+    max-width: 9000px;
     max-height: 400px;
     flex: 1;
 }

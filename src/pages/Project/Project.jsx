@@ -22,6 +22,7 @@ export default function Project() {
         illustration2={project.illustration2}
         illustration3={project.illustration3}
         illustration4={project.illustration4}
+        illustration5={project.illustration5}
         categorie={project.categorie}
         date={project.date}
         link={project.github}
