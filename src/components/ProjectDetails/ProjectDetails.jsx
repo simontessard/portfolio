@@ -44,12 +44,16 @@ export default function ProjectDetails({
         </div>
         <img src={firstIllustration} alt="" className="project-first-picture" />
         <div className="project-second-row">
-          <img src={secondIllustration} alt="" className="project-details-illustration" />
           <div className="project-explication">{explication1}</div>
+          <img src={secondIllustration} alt="" className="project-details-illustration" />
         </div>
         <div className="project-second-row second-explication">
-          <div className="project-explication">{explication2}</div>
           <img src={thirdIllustration} alt="" className="project-details-illustration" />
+          <div className="project-explication">{explication2}</div>
+        </div>
+        <div className="project-second-row">
+          <div className="project-explication">{explication1}</div>
+          <img src={secondIllustration} alt="" className="project-details-illustration" />
         </div>
       </div>
     </>
