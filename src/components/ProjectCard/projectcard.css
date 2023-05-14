@@ -18,7 +18,7 @@
     flex-flow: row wrap;
 }
 
-.project:hover .project-image{
+.project-illustration:hover .project-image{
     transform: scale(1.25) rotate(2deg);
 }
 
@@ -36,7 +36,6 @@
 @media only screen and (max-width: 650px) {
     .project-image {
         width: 100%;
-        
     }
     .project-heading{
         margin-top:8px;
