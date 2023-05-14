@@ -2,15 +2,11 @@ import './projects-text.css'
 
 import LinkButton from '../LinkButton/LinkButton'
 
-function ProjectsText() {
+function ProjectsText({ text, darkmode, textButton, link }) {
   return (
-    <div className="projects-text">
-      <p>
-        L'ensemble de ces projets web a été réalisé durant mon parcours d'apprentissage, en majorité
-        durant mon bachelor Openclassrooms mais aussi durant mon BTS. Certains sont aussi des
-        projets personnels réalisés de façon collaborative comme par exemple ce portfolio.
-      </p>
-      <LinkButton text="↗ VOIR TOUS MES PROJETS" link="/portfolio-2023/projects" title="" />
+    <div className={`projects-text ${darkmode ? 'darkmode' : ''}`}>
+      <p>{text}</p>
+      <LinkButton text={textButton} link={link} title="" />
     </div>
   )
 }
