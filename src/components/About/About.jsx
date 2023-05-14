@@ -1,6 +1,6 @@
 import './about.css'
 
-import ContactButton from '../ContactButton/ContactButton'
+import LinkButton from '../LinkButton/LinkButton'
 
 import Heading from '../Heading/Heading'
 
@@ -22,8 +22,8 @@ function About() {
         </p>
       </div>
       <div className="contact-button-1">
-        <ContactButton text="↘ TÉLÉCHARGEZ MON CV" />
-        <ContactButton text="↗ CONTACTEZ-MOI" link="mailto:simon.tessard@gmail.com" title="" />
+        <LinkButton text="↘ TÉLÉCHARGEZ MON CV" />
+        <LinkButton text="↗ CONTACTEZ-MOI" link="mailto:simon.tessard@gmail.com" title="" />
       </div>
     </div>
   )

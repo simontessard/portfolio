@@ -1,6 +1,6 @@
 import './projectcard.css'
 
-import ContactButton from '../ContactButton/ContactButton'
+import LinkButton from '../LinkButton/LinkButton'
 
 function ProjectCard({ title, date, image, url }) {
   return (
@@ -10,7 +10,7 @@ function ProjectCard({ title, date, image, url }) {
       </div>
       <div className="project-heading">
         <h4>{title}</h4>
-        <ContactButton text="↗ VOIR LE PROJET" link={`/portfolio-2023/project/${url}`} />
+        <LinkButton text="↗ VOIR LE PROJET" link={`/portfolio-2023/project/${url}`} />
       </div>
       <p>{date}</p>
     </div>

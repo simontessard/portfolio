@@ -1,8 +1,8 @@
-import './contactbutton.css'
+import './linkbutton.css'
 
 import { NavLink } from 'react-router-dom'
 
-function ContactButton({ text, link }) {
+function LinkButton({ text, link }) {
   return (
     <NavLink to={`${link}`} className="navlink black">
       <button className="contact-button">{text}</button>
@@ -10,4 +10,4 @@ function ContactButton({ text, link }) {
   )
 }
 
-export default ContactButton
+export default LinkButton
