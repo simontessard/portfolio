@@ -23,7 +23,7 @@ export default function ProjectDetails({
   let firstIllustration = require('../../assets/images/' + illustration1)
   let secondIllustration = require('../../assets/images/' + illustration2)
   let thirdIllustration = require('../../assets/images/' + illustration3)
-  let fourthIllustration = require('../../assets/images/' + illustration4)
+  let fourthIllustration = illustration4 ? require('../../assets/images/' + illustration4) : false
   return (
     <>
       <div className="background-line main-project">
@@ -54,10 +54,12 @@ export default function ProjectDetails({
           <img src={thirdIllustration} alt="" className="project-details-illustration" />
           <div className="project-explication">{explication2}</div>
         </div>
-        <div className="project-second-row">
-          <div className="project-explication">{explication3}</div>
-          <img src={fourthIllustration} alt="" className="project-details-illustration" />
-        </div>
+        {fourthIllustration && (
+          <div className="project-second-row">
+            <div className="project-explication">{explication3}</div>
+            <img src={fourthIllustration} alt="" className="project-details-illustration" />
+          </div>
+        )}
       </div>
     </>
   )

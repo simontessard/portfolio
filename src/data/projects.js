@@ -26,17 +26,14 @@ export const projects = [
     url: 'sportsee',
     mainIllustration: 'project-3-illustration.png',
     illustration2: 'project-3-illustration-1.png',
-    illustration3: 'project-first-picture.png',
+    illustration3: 'project-3-illustration-2.png',
     illustration4: 'project-3-illustration-3.png',
-    illustration5: 'project-2-illustration-3.png',
     description:
       "Le projet consiste à développer un tableau de bord d'analytics avec React. L'objectif est d'afficher différents graphiques représentants les informations sportives de l'utilisateur précisé. Les différentes étapes du projet sont documentées par des User Stories. Le travail effectué a été documenté par un Readme, de la JSDoc et des proptypes.",
     explication1:
       "L'interface a été créée de zéro à partir d'une maquette Figma et de données mockées dans un premier temps, le tout en utilisant la librairie Recharts pour les multiples graphiques qui devaient être intégré (BarChart, RadialChart, LineChart, PieChart)",
     explication2:
       'Un backend utilisant NodeJS était fourni, permettant ainsi de récupérer les données via des calls Fetch une fois le front réalisé. Ces données sont formatées de façon organisée pour pouvoir les modéliser plus facilement et ainsi alimenter les graphiques de manière optimisée.',
-    explication3:
-      'Un backend utilisant NodeJS était fourni, permettant ainsi de récupérer les données via des calls Fetch une fois le front réalisé.',
     github: 'https://github.com/simontessard/SportSee-OCR',
     categorie: 'Openclassrooms',
     date: 2023,
