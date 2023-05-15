@@ -4,10 +4,10 @@ export const projects = [
     name: 'Argent Bank',
     url: 'argent-bank',
     mainIllustration: 'project-2-illustration.png',
-    illustration2: 'project-2-illustration-2.jpeg',
-    illustration3: 'project-2-illustration-3.png',
-    illustration4: 'project-2-illustration-4.png',
-    illustration5: 'project-2-illustration-5.png',
+    illustration2: 'project-2-illustration-1.jpeg',
+    illustration3: 'project-2-illustration-2.png',
+    illustration4: 'project-2-illustration-3.png',
+    illustration5: 'project-2-illustration-4.png',
     description:
       "Le projet consiste à créer une application web React avec un système d'authentification pour les utilisateurs de la banque Argent Bank. L'interface est organisée en composants modulables et réutilisables",
     explication1:
