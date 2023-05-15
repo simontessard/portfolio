@@ -24,10 +24,10 @@ export const projects = [
     id: 2,
     name: 'SportSee',
     url: 'sportsee',
-    mainIllustration: 'project-first-picture.png',
+    mainIllustration: 'project-3-illustration.png',
     illustration2: 'project-3-illustration-1.png',
     illustration3: 'project-first-picture.png',
-    illustration4: 'project-2-illustration-3.png',
+    illustration4: 'project-3-illustration-3.png',
     illustration5: 'project-2-illustration-3.png',
     description:
       "Le projet consiste à développer un tableau de bord d'analytics avec React. L'objectif est d'afficher différents graphiques représentants les informations sportives de l'utilisateur précisé. Les différentes étapes du projet sont documentées par des User Stories. Le travail effectué a été documenté par un Readme, de la JSDoc et des proptypes.",
