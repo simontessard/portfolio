@@ -28,6 +28,7 @@ export default function Project() {
         link={project.github}
         explication1={project.explication1}
         explication2={project.explication2}
+        explication3={project.explication3}
       />
       <div className="mouse-scrollup">
         <MouseScrollUp />
