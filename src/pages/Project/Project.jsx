@@ -18,11 +18,11 @@ export default function Project() {
       <ProjectDetails
         name={project.name}
         description={project.description}
-        illustration={project.illustration}
-        illustration2={project.illustration2}
-        illustration3={project.illustration3}
-        illustration4={project.illustration4}
-        illustration5={project.illustration5}
+        mainIllustration={project.mainIllustration}
+        illustration1={project.illustration2}
+        illustration2={project.illustration3}
+        illustration3={project.illustration4}
+        illustration4={project.illustration5}
         categorie={project.categorie}
         date={project.date}
         link={project.github}

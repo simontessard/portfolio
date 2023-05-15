@@ -7,11 +7,11 @@ import GithubLogo from '../GithubLogo/GithubLogo'
 export default function ProjectDetails({
   name,
   description,
-  illustration,
+  mainIllustration,
+  illustration1,
   illustration2,
   illustration3,
   illustration4,
-  illustration5,
   categorie,
   date,
   link,
@@ -19,11 +19,11 @@ export default function ProjectDetails({
   explication2,
   explication3,
 }) {
-  let mainIllustration = require('../../assets/images/' + illustration)
-  let firstIllustration = require('../../assets/images/' + illustration2)
-  let secondIllustration = require('../../assets/images/' + illustration3)
-  let thirdIllustration = require('../../assets/images/' + illustration4)
-  let fourthIllustration = require('../../assets/images/' + illustration5)
+  let coverPicture = require('../../assets/images/' + mainIllustration)
+  let firstIllustration = require('../../assets/images/' + illustration1)
+  let secondIllustration = require('../../assets/images/' + illustration2)
+  let thirdIllustration = require('../../assets/images/' + illustration3)
+  let fourthIllustration = require('../../assets/images/' + illustration4)
   return (
     <>
       <div className="background-line main-project">
@@ -33,7 +33,7 @@ export default function ProjectDetails({
           <MouseScroll project={true} />
         </div>
         <div className="project-picture-container">
-          <img src={mainIllustration} alt="" className="project-picture" />
+          <img src={coverPicture} alt="" className="project-picture" />
         </div>
       </div>
       <div className="project-information">

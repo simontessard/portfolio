@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     name: 'Argent Bank',
     url: 'argent-bank',
-    illustration: 'project-2-illustration.png',
+    mainIllustration: 'project-2-illustration.png',
     illustration2: 'project-2-illustration-2.jpeg',
     illustration3: 'project-2-illustration-3.png',
     illustration4: 'project-2-illustration-4.png',
