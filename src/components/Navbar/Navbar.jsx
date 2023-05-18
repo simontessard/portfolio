@@ -40,9 +40,18 @@ function Navbar() {
       {open && (
         <div className="vertical-navbar">
           <RxCross2 className="nav-hamburger" onClick={() => setOpen(!open)} />
-          <NavLink to="/portfolio/projects">PROJETS</NavLink>
-          <NavLink to="/portfolio/projects">À PROPOS</NavLink>
-          <NavLink to="mailto:simon.tessard@gmail.com">CONTACT</NavLink>
+          <NavLink to="/portfolio" onClick={() => setOpen(!open)}>
+            ACCUEIL
+          </NavLink>
+          <NavLink to="/portfolio/projects" onClick={() => setOpen(!open)}>
+            PROJETS
+          </NavLink>
+          <NavLink to="/portfolio/projects" onClick={() => setOpen(!open)}>
+            À PROPOS
+          </NavLink>
+          <NavLink to="mailto:simon.tessard@gmail.com" onClick={() => setOpen(!open)}>
+            CONTACT
+          </NavLink>
         </div>
       )}
     </header>
