@@ -39,6 +39,7 @@ function Navbar() {
       </div>
       {open && (
         <div className="vertical-navbar">
+          <RxCross2 className="nav-hamburger" onClick={() => setOpen(!open)} />
           <NavLink to="/portfolio-2023/projects">PROJETS</NavLink>
           <NavLink to="/portfolio-2023/projects">À PROPOS</NavLink>
           <NavLink to="mailto:simon.tessard@gmail.com">CONTACT</NavLink>
