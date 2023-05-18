@@ -39,7 +39,6 @@ function Navbar() {
       </div>
       {open && (
         <div className="vertical-navbar">
-          <RxCross2 className="nav-hamburger" onClick={() => setOpen(!open)} />
           <NavLink to="/portfolio" onClick={() => setOpen(!open)}>
             ACCUEIL
           </NavLink>

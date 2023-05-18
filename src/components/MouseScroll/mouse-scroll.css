@@ -76,7 +76,7 @@
 @media only screen and (max-width: 650px) {
     .mouse-container {
         max-width: 15px;
-        top:20%;
+        top:32%;
         right:30px;
     }
     .mouse-container p {

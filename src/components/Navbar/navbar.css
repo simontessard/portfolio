@@ -54,7 +54,7 @@ a {
 
 .vertical-navbar {
     position: fixed;
-    top:0;
+    top:60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,6 +77,15 @@ a {
     }
     .vertical-navbar {
         display: flex;
+    }
+    header {
+        position:fixed;
+        width: 100%;
+        top: 0;
+        z-index: 6;
+    }
+    .header-container {
+        padding-block: 20px;
     }
 }
 
