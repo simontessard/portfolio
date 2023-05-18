@@ -11,17 +11,17 @@ function Navbar() {
   return (
     <header>
       <div className="header-container">
-        <NavLink to="/portfolio-2023" className="navlink header-logo bounce-in-top link-bar">
+        <NavLink to="/portfolio" className="navlink header-logo bounce-in-top link-bar">
           S
         </NavLink>
         <ul className="nav-list fadeInRight">
           <li>
-            <NavLink to="/portfolio-2023/projects" className="navlink link-bar ">
+            <NavLink to="/portfolio/projects" className="navlink link-bar ">
               PROJETS
             </NavLink>
           </li>
           <li>
-            <NavLink to="/portfolio-2023/projects" className="navlink link-bar ">
+            <NavLink to="/portfolio/projects" className="navlink link-bar ">
               À PROPOS
             </NavLink>
           </li>
@@ -40,8 +40,8 @@ function Navbar() {
       {open && (
         <div className="vertical-navbar">
           <RxCross2 className="nav-hamburger" onClick={() => setOpen(!open)} />
-          <NavLink to="/portfolio-2023/projects">PROJETS</NavLink>
-          <NavLink to="/portfolio-2023/projects">À PROPOS</NavLink>
+          <NavLink to="/portfolio/projects">PROJETS</NavLink>
+          <NavLink to="/portfolio/projects">À PROPOS</NavLink>
           <NavLink to="mailto:simon.tessard@gmail.com">CONTACT</NavLink>
         </div>
       )}

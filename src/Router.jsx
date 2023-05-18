@@ -14,9 +14,9 @@ const Routing = () => {
       <Navbar />
       <Routes>
         <Route path="*" element={<Home />} />
-        <Route path="/portfolio-2023" element={<Home />} />
-        <Route path="/portfolio-2023/projects" element={<ProjectsList />} />
-        <Route path="/portfolio-2023/project/:name" element={<Project />} />
+        <Route path="/portfolio" element={<Home />} />
+        <Route path="/portfolio/projects" element={<ProjectsList />} />
+        <Route path="/portfolio/project/:name" element={<Project />} />
       </Routes>
       <Footer />
     </BrowserRouter>

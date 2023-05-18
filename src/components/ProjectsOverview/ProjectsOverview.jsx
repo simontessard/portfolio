@@ -13,7 +13,7 @@ function ProjectsOverview() {
         durant mon bachelor Openclassrooms mais aussi durant mon BTS. Certains sont aussi des
         projets personnels réalisés de façon collaborative comme par exemple ce portfolio."
         textButton="↗ VOIR TOUS MES PROJETS"
-        link="/portfolio-2023/projects"
+        link="/portfolio/projects"
       />
       <ProjectsContainer />
     </div>
