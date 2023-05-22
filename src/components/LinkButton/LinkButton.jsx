@@ -1,12 +1,15 @@
 import './linkbutton.css'
 
 import { NavLink } from 'react-router-dom'
+import { Reveal } from '../Reveal/Reveal'
 
 function LinkButton({ text, link }) {
   return (
-    <NavLink to={`${link}`} className="navlink black">
-      <button className="contact-button">{text}</button>
-    </NavLink>
+    <Reveal>
+      <NavLink to={`${link}`} className="navlink black">
+        <button className="contact-button">{text}</button>
+      </NavLink>
+    </Reveal>
   )
 }
 
