@@ -2,6 +2,7 @@ import ProjectsContainer from '../../components/ProjectsContainer/ProjectsContai
 import BigTitle from '../../components/BigTitle/BigTitle'
 import ProjectsText from '../../components/ProjectsText/ProjectsText'
 import { MouseScroll, MouseScrollUp } from '../../components/MouseScroll/MouseScroll'
+import { PageTransition } from '../../components/utils/PageTransition/PageTransition'
 import { useEffect } from 'react'
 
 function ProjectsList() {
@@ -27,6 +28,7 @@ function ProjectsList() {
       <div className="mouse-scrollup dark-background">
         <MouseScrollUp darkmode={true} />
       </div>
+      <PageTransition />
     </div>
   )
 }

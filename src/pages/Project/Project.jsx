@@ -2,6 +2,7 @@ import ProjectDetails from '../../components/ProjectDetails/ProjectDetails'
 import { useParams } from 'react-router-dom'
 import { useEffect } from 'react'
 import { MouseScrollUp } from '../../components/MouseScroll/MouseScroll'
+import { PageTransition } from '../../components/utils/PageTransition/PageTransition'
 
 import { projects } from '../../data/projects'
 
@@ -33,6 +34,7 @@ export default function Project() {
       <div className="mouse-scrollup">
         <MouseScrollUp />
       </div>
+      <PageTransition />
     </>
   )
 }

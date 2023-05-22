@@ -4,6 +4,8 @@ import Skills from '../../components/Skills/Skills'
 import ProjectsOverview from '../../components/ProjectsOverview/ProjectsOverview'
 import { MouseScrollUp } from '../../components/MouseScroll/MouseScroll'
 
+import { PageTransition } from '../../components/utils/PageTransition/PageTransition'
+
 function Home() {
   return (
     <>
@@ -14,6 +16,7 @@ function Home() {
       <div className="mouse-scrollup">
         <MouseScrollUp />
       </div>
+      <PageTransition />
     </>
   )
 }
