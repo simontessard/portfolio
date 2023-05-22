@@ -4,6 +4,8 @@ import { MouseScroll } from '../MouseScroll/MouseScroll'
 import BigTitle from '../BigTitle/BigTitle'
 import GithubLogo from '../GithubLogo/GithubLogo'
 
+import { Reveal } from '../Reveal/Reveal'
+
 export default function ProjectDetails({
   name,
   description,
@@ -37,28 +39,36 @@ export default function ProjectDetails({
         </div>
       </div>
       <div className="project-information">
-        <div className="project-first-row">
-          <div className="project-categorie">
-            <p>CATÉGORIE</p>
-            <p>{categorie}</p>
-            <p>{date}</p>
+        <Reveal>
+          <div className="project-first-row">
+            <div className="project-categorie">
+              <p>CATÉGORIE</p>
+              <p>{categorie}</p>
+              <p>{date}</p>
+            </div>
+            <div className="project-description">{description}</div>
           </div>
-          <div className="project-description">{description}</div>
-        </div>
+        </Reveal>
         <img src={firstIllustration} alt="" className="project-first-picture" />
-        <div className="project-second-row">
-          <div className="project-explication">{explication1}</div>
-          <img src={secondIllustration} alt="" className="project-details-illustration" />
-        </div>
-        <div className="project-second-row second-explication">
-          <img src={thirdIllustration} alt="" className="project-details-illustration" />
-          <div className="project-explication">{explication2}</div>
-        </div>
-        {fourthIllustration && (
+        <Reveal>
           <div className="project-second-row">
-            <div className="project-explication">{explication3}</div>
-            <img src={fourthIllustration} alt="" className="project-details-illustration" />
+            <div className="project-explication">{explication1}</div>
+            <img src={secondIllustration} alt="" className="project-details-illustration" />
           </div>
+        </Reveal>
+        <Reveal>
+          <div className="project-second-row second-explication">
+            <img src={thirdIllustration} alt="" className="project-details-illustration" />
+            <div className="project-explication">{explication2}</div>
+          </div>
+        </Reveal>
+        {fourthIllustration && (
+          <Reveal>
+            <div className="project-second-row">
+              <div className="project-explication">{explication3}</div>
+              <img src={fourthIllustration} alt="" className="project-details-illustration" />
+            </div>
+          </Reveal>
         )}
       </div>
     </>
