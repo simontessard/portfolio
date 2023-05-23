@@ -2,12 +2,18 @@
     color: white;
     width: 80px;
     cursor: pointer;
+}
+
+.github-link {
+    width: fit-content;
     margin-left: 4rem;
 }
 
 @media only screen and (max-width: 650px) {
     .github-logo {
-        margin-left: 1.5rem;
         width: 40px;
+    }
+    .github-link {
+        margin-left: 1.5rem;
     }
 }
