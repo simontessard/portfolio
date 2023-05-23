@@ -19,6 +19,8 @@ export const projects = [
     github: 'https://github.com/simontessard/ArgentBank-OCR',
     categorie: 'Openclassrooms',
     date: 2023,
+    previousProject: 'les-petits-plats',
+    nextProject: 'sportsee',
   },
   {
     id: 2,
@@ -37,6 +39,8 @@ export const projects = [
     github: 'https://github.com/simontessard/SportSee-OCR',
     categorie: 'Openclassrooms',
     date: 2023,
+    previousProject: 'argent-bank',
+    nextProject: 'kasa',
   },
   {
     id: 3,
@@ -57,6 +61,8 @@ export const projects = [
     github: 'https://github.com/simontessard/Kasa-OCR',
     categorie: 'Openclassrooms',
     date: 2022,
+    previousProject: 'sportsee',
+    nextProject: 'les-petits-plats',
   },
   {
     id: 4,
@@ -75,5 +81,7 @@ export const projects = [
     github: 'https://github.com/simontessard/Les-Petits-Plats-OCR',
     categorie: 'Openclassrooms',
     date: 2022,
+    previousProject: 'kasa',
+    nextProject: 'argent-bank',
   },
 ]

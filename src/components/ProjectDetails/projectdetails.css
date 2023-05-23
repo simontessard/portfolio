@@ -81,6 +81,13 @@
     flex: 1;
 }
 
+.bottom-project-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5rem;
+}
+
 @media only screen and (max-width: 1000px) {
     .main-project {
         flex-flow: column;
@@ -98,6 +105,9 @@
     .project-information {
         font-size: 90%;
         line-height: normal; 
+    }
+    .bottom-project-container {
+        padding-inline: 2rem;
     }
 }
 

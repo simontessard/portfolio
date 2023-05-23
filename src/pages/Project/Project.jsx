@@ -2,6 +2,7 @@ import ProjectDetails from '../../components/ProjectDetails/ProjectDetails'
 import { useParams } from 'react-router-dom'
 import { useEffect } from 'react'
 import { MouseScrollUp } from '../../components/MouseScroll/MouseScroll'
+import LinkButton from '../../components/LinkButton/LinkButton'
 import { PageTransition } from '../../components/utils/PageTransition/PageTransition'
 
 import { projects } from '../../data/projects'
@@ -31,7 +32,14 @@ export default function Project() {
         explication2={project.explication2}
         explication3={project.explication3}
       />
-      <MouseScrollUp />
+      <div className="bottom-project-container">
+        <LinkButton
+          text="← PROJET PRÉCÉDENT"
+          link={`/portfolio/project/${project.previousProject}`}
+        />
+        <MouseScrollUp />
+        <LinkButton text="PROJET SUIVANT →" link={`/portfolio/project/${project.nextProject}`} />
+      </div>
       <PageTransition />
     </>
   )
