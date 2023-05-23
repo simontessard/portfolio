@@ -1,6 +1,6 @@
 import './heading.css'
 
-import { Reveal } from '../Reveal/Reveal'
+import { Reveal } from '../utils/Reveal/Reveal'
 
 function Heading({ beforeText, italicText, afterText, margin }) {
   return (

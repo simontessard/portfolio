@@ -1,7 +1,7 @@
 import './projects-text.css'
 
 import LinkButton from '../LinkButton/LinkButton'
-import { Reveal } from '../Reveal/Reveal'
+import { Reveal } from '../utils/Reveal/Reveal'
 
 function ProjectsText({ text, darkmode, textButton, link }) {
   return (

@@ -1,7 +1,7 @@
 import './linkbutton.css'
 
 import { NavLink } from 'react-router-dom'
-import { Reveal } from '../Reveal/Reveal'
+import { Reveal } from '../utils/Reveal/Reveal'
 
 function LinkButton({ text, link }) {
   return (

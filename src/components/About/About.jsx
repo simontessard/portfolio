@@ -3,7 +3,7 @@ import './about.css'
 import LinkButton from '../LinkButton/LinkButton'
 
 import Heading from '../Heading/Heading'
-import { Reveal } from '../Reveal/Reveal'
+import { Reveal } from '../utils/Reveal/Reveal'
 
 function About() {
   return (

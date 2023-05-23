@@ -6,7 +6,7 @@ import './skills.css'
 import skillPicture from '../../assets/images/skill-picture.png'
 import serverPicture from '../../assets/images/servers.jpg'
 
-import { Reveal } from '../Reveal/Reveal'
+import { Reveal } from '../utils/Reveal/Reveal'
 
 function Skills() {
   return (

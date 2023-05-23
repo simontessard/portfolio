@@ -4,7 +4,7 @@ import { MouseScroll } from '../MouseScroll/MouseScroll'
 import BigTitle from '../BigTitle/BigTitle'
 import GithubLogo from '../GithubLogo/GithubLogo'
 
-import { Reveal } from '../Reveal/Reveal'
+import { Reveal } from '../utils/Reveal/Reveal'
 
 export default function ProjectDetails({
   name,
