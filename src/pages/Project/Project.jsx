@@ -31,9 +31,7 @@ export default function Project() {
         explication2={project.explication2}
         explication3={project.explication3}
       />
-      <div className="mouse-scrollup">
-        <MouseScrollUp />
-      </div>
+      <MouseScrollUp />
       <PageTransition />
     </>
   )

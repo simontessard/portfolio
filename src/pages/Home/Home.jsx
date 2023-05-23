@@ -13,9 +13,7 @@ function Home() {
       <About />
       <Skills />
       <ProjectsOverview />
-      <div className="mouse-scrollup">
-        <MouseScrollUp />
-      </div>
+      <MouseScrollUp />
       <PageTransition />
     </>
   )
