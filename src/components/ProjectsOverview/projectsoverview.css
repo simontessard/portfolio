@@ -1,3 +1,9 @@
 .projects {
     padding-top: 8rem;
 }
+
+@media only screen and (max-width: 690px) {
+    .projects {
+        padding-top: 5rem;
+    }
+}
