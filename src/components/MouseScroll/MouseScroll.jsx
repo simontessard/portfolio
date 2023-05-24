@@ -3,7 +3,7 @@ import './mouse-scroll.css'
 import mouse from '../../assets/icons/mouse.svg'
 import arrow from '../../assets/icons/down-arrow.svg'
 
-export function MouseScroll({ project }) {
+export function MouseScrollDown({ project }) {
   return (
     <div className={`mouse-container bounce ${project ? 'mouse-container-project' : ''}`}>
       <img src={mouse} alt="Mouse logo" />

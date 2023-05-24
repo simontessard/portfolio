@@ -1,6 +1,6 @@
 import './projectdetails.css'
 
-import { MouseScroll } from '../MouseScroll/MouseScroll'
+import { MouseScrollDown } from '../MouseScroll/MouseScroll'
 import BigTitle from '../BigTitle/BigTitle'
 import GithubLogo from '../GithubLogo/GithubLogo'
 
@@ -32,7 +32,7 @@ export default function ProjectDetails({
         <div className="column project-details-title">
           <BigTitle first="PROJET:" second={name.toUpperCase()} margin={true} />
           <GithubLogo link={link} />
-          <MouseScroll project={true} />
+          <MouseScrollDown project={true} />
         </div>
         <div className="project-picture-container">
           <img src={coverPicture} alt="" className="project-picture" />

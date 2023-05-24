@@ -1,7 +1,7 @@
 import ProjectsContainer from '../../components/ProjectsContainer/ProjectsContainer'
 import BigTitle from '../../components/BigTitle/BigTitle'
 import ProjectsText from '../../components/ProjectsText/ProjectsText'
-import { MouseScroll, MouseScrollUp } from '../../components/MouseScroll/MouseScroll'
+import { MouseScrollDown, MouseScrollUp } from '../../components/MouseScroll/MouseScroll'
 import { PageTransition } from '../../components/utils/PageTransition/PageTransition'
 import { useEffect } from 'react'
 
@@ -14,7 +14,7 @@ function ProjectsList() {
     <div className="projects-list-container">
       <div className="background-line">
         <BigTitle first="MES" second="PROJETS" projectsList={true} />
-        <MouseScroll />
+        <MouseScrollDown />
       </div>
       <ProjectsText
         darkmode={true}
