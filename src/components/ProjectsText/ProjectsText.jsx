@@ -9,7 +9,7 @@ function ProjectsText({ text, darkmode, textButton, link }) {
       <Reveal>
         <p>{text}</p>
       </Reveal>
-      <LinkButton text={textButton} link={link} title="" />
+      <LinkButton text={textButton} link={link} title="" darkmode={darkmode} />
     </div>
   )
 }

@@ -25,9 +25,18 @@
     background-color: black;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-  }
+}
   
-  .contact-button:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
+.contact-button:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.link-button-dark {
+  background-color:#131313;
+  color: white;
+}
+
+.link-button-dark::after {
+    background-color: white;
+}
