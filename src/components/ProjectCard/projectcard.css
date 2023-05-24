@@ -19,7 +19,7 @@
 }
 
 .project-illustration:hover .project-image{
-    transform: scale(1.25) rotate(2deg);
+    transform: scale(1.10) rotate(2deg);
 }
 
 .project-image {
