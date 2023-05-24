@@ -11,7 +11,7 @@ export default function ProjectsContainer({ darkmode }) {
   return (
     <div className={`container-projects ${darkmode ? 'darkmode' : ''}`}>
       <div className="column">
-        <ProjectCard title="Argent-Bank" url="argent-bank" date="2022" image={projectArgentBank} />
+        <ProjectCard title="Argent Bank" url="argent-bank" date="2022" image={projectArgentBank} />
         <ProjectCard title="SportSee" url="sportsee" date="2023" image={projectSportsee} />
       </div>
       <div className="column reverse">
