@@ -7,8 +7,8 @@ export function PageTransition() {
   return (
     <motion.div
       initial={{ scaleX: 1 }}
-      animate={{ scaleX: 0, transition: { duration: 0.75, ease: 'circOut' } }}
-      exit={{ scaleX: 1, transition: { duration: 0.75, ease: 'circIn' } }}
+      animate={{ scaleX: 0, transition: { duration: 0.65, ease: 'circOut' } }}
+      exit={{ scaleX: 1, transition: { duration: 0.65, ease: 'circIn' } }}
       style={{ originX: isPresent ? 0 : 1 }}
       className="page-transition"
     />
