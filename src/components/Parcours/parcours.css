@@ -1,0 +1,38 @@
+.parcours-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:12rem;
+    padding-bottom:4rem;
+}
+
+.parcours-list {
+    margin-top: 6rem;
+    padding-inline: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parcours-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding: 1rem;
+    margin-block: 4rem;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 650px) {
+    .parcours-list {
+        margin-top: 2rem;
+    }
+    .parcours-container {
+        padding-bottom:0;
+    }
+}
