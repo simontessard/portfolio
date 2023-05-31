@@ -21,7 +21,7 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/portfolio/projects" className="navlink link-bar ">
+            <NavLink to="/portfolio/about" className="navlink link-bar ">
               À PROPOS
             </NavLink>
           </li>
@@ -45,7 +45,7 @@ function Navbar() {
           <NavLink to="/portfolio/projects" onClick={() => setOpen(!open)}>
             PROJETS
           </NavLink>
-          <NavLink to="/portfolio/projects" onClick={() => setOpen(!open)}>
+          <NavLink to="/portfolio/about" onClick={() => setOpen(!open)}>
             À PROPOS
           </NavLink>
           <NavLink to="mailto:simon.tessard@gmail.com" onClick={() => setOpen(!open)}>
