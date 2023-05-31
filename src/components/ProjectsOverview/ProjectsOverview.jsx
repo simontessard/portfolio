@@ -9,9 +9,8 @@ function ProjectsOverview() {
     <div className="projects">
       <Heading beforeText="" italicText="PRO" afterText="JETS" margin={true} />
       <ProjectsText
-        text="L'ensemble de ces projets web a été réalisé durant mon parcours d'apprentissage, en majorité
-        durant mon bachelor Openclassrooms mais aussi durant mon BTS. Certains sont aussi des
-        projets personnels réalisés de façon collaborative comme par exemple ce portfolio."
+        text="La très grande majorité de mes projets a été réalisé cette année durant mon Bachelor OpenClassRooms : « Développeur Front-End - Javascript React ». 
+        Certains ont aussi été développé pendant mon BTS SIO (Services Informatiques Aux Organisations) et d'autres sont des projets personnels comme ce portfolio par exemple."
         textButton="↗ VOIR TOUS MES PROJETS"
         link="/portfolio/projects"
       />
