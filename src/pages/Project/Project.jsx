@@ -31,6 +31,7 @@ export default function Project() {
         explication1={project.explication1}
         explication2={project.explication2}
         explication3={project.explication3}
+        skills={project.skills}
       />
       <div className="bottom-project-container">
         <LinkButton

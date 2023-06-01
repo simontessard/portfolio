@@ -20,6 +20,7 @@ export default function ProjectDetails({
   explication1,
   explication2,
   explication3,
+  skills,
 }) {
   let coverPicture = require('../../assets/images/' + mainIllustration)
   let firstIllustration = require('../../assets/images/' + illustration1)
@@ -49,6 +50,13 @@ export default function ProjectDetails({
             <div className="project-description">{description}</div>
           </div>
         </Reveal>
+        <div className="project-skills">
+          {skills.map((name) => (
+            <Reveal>
+              <p>- {name}</p>
+            </Reveal>
+          ))}
+        </div>
         <img src={firstIllustration} alt="" className="project-first-picture" />
         <Reveal>
           <div className="project-second-row">
