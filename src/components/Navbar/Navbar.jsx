@@ -17,21 +17,9 @@ function Navbar() {
           S
         </NavLink>
         <ul className="nav-list fadeInRight">
-          <li>
-            <NavLink to="/portfolio/projects" className="navlink link-bar ">
-              PROJETS
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/portfolio/about" className="navlink link-bar ">
-              À PROPOS
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="mailto:simon.tessard@gmail.com" className="navlink link-bar ">
-              CONTACT
-            </NavLink>
-          </li>
+          <DesktopNavLink name="PROJETS" link="/portfolio/projects" />
+          <DesktopNavLink name="À PROPOS" link="/portfolio/about" />
+          <DesktopNavLink name="CONTACT" link="mailto:simon.tessard@gmail.com" />
         </ul>
         {!open ? (
           <IoMenu className="nav-hamburger" onClick={() => setOpen(!open)} />
@@ -53,6 +41,16 @@ function Navbar() {
         </div>
       )}
     </header>
+  )
+}
+
+function DesktopNavLink({ link, name }) {
+  return (
+    <li>
+      <NavLink to={link} className="navlink link-bar ">
+        {name}
+      </NavLink>
+    </li>
   )
 }
 
