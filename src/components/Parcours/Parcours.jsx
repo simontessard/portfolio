@@ -12,7 +12,7 @@ function Parcours() {
           <div className="parcours-item">
             <p>2022 - 2023 </p>
             <p>
-              Bachelor (Bac+3/4) « Développeur d'Applications - Javascript React » chez
+              <span>Bac+3/4 :</span> Bachelor « Développeur d'Applications - Javascript React » chez
               OpenClassRooms
             </p>
           </div>
@@ -21,8 +21,8 @@ function Parcours() {
           <div className="parcours-item">
             <p>2019 - 2021 </p>
             <p>
-              Brevet de Technicien Supérieur de Services Informatiques aux Organisations (SIO) au
-              Lycée Victor et Hélène Basch (VHB) à Rennes
+              <span>Bac+2 :</span> Brevet de Technicien Supérieur de Services Informatiques aux
+              Organisations (SIO) au Lycée Victor et Hélène Basch (VHB) à Rennes
             </p>
             <p>Option: Solutions Logicielles et Applications Métiers (SLAM)</p>
           </div>

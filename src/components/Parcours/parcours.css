@@ -28,6 +28,12 @@
     font-size: 16px;
 }
 
+.parcours-item span{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin-right: 0.5rem;
+}
+
 @media only screen and (max-width: 650px) {
     .parcours-list {
         margin-top: 2rem;
