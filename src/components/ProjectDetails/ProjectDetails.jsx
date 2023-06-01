@@ -52,9 +52,9 @@ export default function ProjectDetails({
         </Reveal>
         <div className="project-skills">
           {skills.map((name) => (
-            <Reveal>
-              <p>- {name}</p>
-            </Reveal>
+            <p>
+              <Reveal>- {name}</Reveal>
+            </p>
           ))}
         </div>
         <img src={firstIllustration} alt="" className="project-first-picture" />

@@ -75,6 +75,10 @@
     gap:100px;
 }
 
+.project-skills p{
+    text-align: center;
+}
+
 .project-details-title {
     position: relative;
 }
