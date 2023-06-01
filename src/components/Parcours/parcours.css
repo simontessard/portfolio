@@ -31,6 +31,7 @@
 @media only screen and (max-width: 650px) {
     .parcours-list {
         margin-top: 2rem;
+        padding-inline: 2rem;
     }
     .parcours-container {
         padding-bottom:0;
