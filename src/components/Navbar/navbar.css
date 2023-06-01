@@ -68,6 +68,10 @@ a {
     font-size: larger;
 }
 
+.vertical-navbar navlink{
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 650px) {
     .nav-list {
         display: none;
