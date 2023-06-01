@@ -58,7 +58,7 @@ function Navbar() {
 
 function MobileNavLink({ link, name, setOpen, open }) {
   return (
-    <motion.Navlink
+    <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{
@@ -66,11 +66,10 @@ function MobileNavLink({ link, name, setOpen, open }) {
         delay: 0.5,
         ease: [0, 0.71, 0.2, 1.01],
       }}
-      to={link}
       onClick={() => setOpen(!open)}
     >
-      {name}
-    </motion.Navlink>
+      <NavLink to={link}>{name}</NavLink>
+    </motion.div>
   )
 }
 
