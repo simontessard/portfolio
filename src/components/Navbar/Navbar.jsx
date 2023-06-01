@@ -6,6 +6,8 @@ import { RxCross2 } from 'react-icons/rx'
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
+import { motion } from 'framer-motion'
+
 function Navbar() {
   const [open, setOpen] = useState(false)
   return (
@@ -39,21 +41,36 @@ function Navbar() {
       </div>
       {open && (
         <div className="vertical-navbar">
-          <NavLink to="/portfolio" onClick={() => setOpen(!open)}>
-            ACCUEIL
-          </NavLink>
-          <NavLink to="/portfolio/projects" onClick={() => setOpen(!open)}>
-            PROJETS
-          </NavLink>
-          <NavLink to="/portfolio/about" onClick={() => setOpen(!open)}>
-            À PROPOS
-          </NavLink>
-          <NavLink to="mailto:simon.tessard@gmail.com" onClick={() => setOpen(!open)}>
-            CONTACT
-          </NavLink>
+          <MobileNavLink name="ACCUEIL" link="/portfolio" setOpen={setOpen} open={open} />
+          <MobileNavLink name="PROJETS" link="/portfolio/projects" setOpen={setOpen} open={open} />
+          <MobileNavLink name="À PROPOS" link="/portfolio/about" setOpen={setOpen} open={open} />
+          <MobileNavLink
+            name="CONTACT"
+            link="mailto:simon.tessard@gmail.com"
+            setOpen={setOpen}
+            open={open}
+          />
         </div>
       )}
     </header>
+  )
+}
+
+function MobileNavLink({ link, name, setOpen, open }) {
+  return (
+    <motion.Navlink
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 1,
+        delay: 0.5,
+        ease: [0, 0.71, 0.2, 1.01],
+      }}
+      to={link}
+      onClick={() => setOpen(!open)}
+    >
+      {name}
+    </motion.Navlink>
   )
 }
 
