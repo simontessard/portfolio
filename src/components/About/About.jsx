@@ -1,6 +1,9 @@
 import './about.css'
 
 import LinkButton from '../LinkButton/LinkButton'
+import DownloadButton from '../DownloadButton/DownloadButton'
+
+import CV from '../../assets/pdf/cv.pdf'
 
 import Heading from '../Heading/Heading'
 import { Reveal } from '../utils/Reveal/Reveal'
@@ -26,7 +29,7 @@ function About() {
         </p>
       </div>
       <div className="contact-button-1">
-        <LinkButton text="↘ TÉLÉCHARGEZ MON CV" />
+        <DownloadButton text="↘ TÉLÉCHARGEZ MON CV" link={CV} />
         <LinkButton text="↗ CONTACTEZ-MOI" link="mailto:simon.tessard@gmail.com" title="" />
       </div>
     </div>
