@@ -11,6 +11,7 @@ header {
     color: white ;
     padding: 30px 50px;
 }
+
 .header-logo {
     border-radius: 50%;
     padding: 8px;
@@ -39,8 +40,19 @@ a {
     color: black;
 }
 
+.link-logo-container {
+    display: flex;
+    gap: 10px;
+}
+
+.link-logo {
+    font-size: 150%;
+    padding-top: 15px;
+}
+
 .nav-list {
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 

@@ -2,6 +2,7 @@ import './navbar.css'
 
 import { IoMenu } from 'react-icons/io5'
 import { RxCross2 } from 'react-icons/rx'
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
@@ -20,6 +21,18 @@ function Navbar() {
           <DesktopNavLink name="PROJETS" link="/portfolio/projects" />
           <DesktopNavLink name="À PROPOS" link="/portfolio/about" />
           <DesktopNavLink name="CONTACT" link="mailto:simon.tessard@gmail.com" />
+          <div className="link-logo-container">
+            <DesktopNavLink
+              name={AiFillGithub}
+              link="https://github.com/simontessard"
+              logo={true}
+            />
+            <DesktopNavLink
+              name={AiFillLinkedin}
+              link="https://www.linkedin.com/in/simon-tessard-138733198/"
+              logo={true}
+            />
+          </div>
         </ul>
         {!open ? (
           <IoMenu className="nav-hamburger" onClick={() => setOpen(!open)} />
@@ -44,10 +57,10 @@ function Navbar() {
   )
 }
 
-function DesktopNavLink({ link, name }) {
+function DesktopNavLink({ link, name, logo }) {
   return (
     <li>
-      <NavLink to={link} className="navlink link-bar ">
+      <NavLink to={link} className={`navlink link-bar ${logo ? 'link-logo' : ''}`}>
         {name}
       </NavLink>
     </li>
