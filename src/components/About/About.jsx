@@ -12,6 +12,9 @@ function About() {
   return (
     <div className="about">
       <Heading beforeText="À" italicText="PRO" afterText="POS" margin={true} />
+      <div className="github-container">
+        <LinkButton text="↗ VISITER MON GITHUB" link="https://github.com/simontessard" />
+      </div>
       <div className="about-text-container">
         <div id="whitebg"></div>
         <div id="blackbg"></div>

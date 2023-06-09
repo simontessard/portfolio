@@ -40,11 +40,15 @@
     position: relative;
 }
 
-.contact-button-1 {
+.contact-button-1, .github-container {
     display: flex;
     justify-content:space-between;
     padding-top: 2rem;;
     padding-inline: 4rem;
+}
+
+.github-container {
+    justify-content:flex-end;
 }
 
 @media only screen and (max-width: 1300px) {
