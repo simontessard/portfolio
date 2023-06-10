@@ -21,13 +21,13 @@ function About() {
         <p className="aboutText">
           <Reveal>
             Développeur junior, je suis titulaire d'un BTS SIO (Option Développeur) et d'une
-            formation Bac+3 "Développeur d'application - JavaScript React" chez OpenClassrooms, je
-            me prépare actuellement à poursuivre mes études en réalisant un Bac+5 en alternance
-            toujours chez OpenClassrooms. J'ai acquis une expérience en développement web par mon
-            travail sur différents projets. Constamment à la recherche de nouveaux défis pour
-            améliorer mes compétences, j'aspire à participer à des projets dans un milieu
-            professionnel. Si vous êtes à la recherche d'un développeur pour votre entreprise ou
-            votre projet, n'hésitez pas à me contacter.
+            formation Bac+3/4 « Développeur d'application - JavaScript React » chez OpenClassrooms,
+            je me prépare actuellement à poursuivre mes études en réalisant un Bac+5 « Développeur
+            Full-Stack - Java et Angular » en alternance toujours chez OpenClassrooms. J'ai acquis
+            une expérience en développement web par mon travail sur différents projets et étant
+            constamment à la recherche de nouveaux défis pour améliorer mes compétences, j'aspire à
+            participer à des projets dans un milieu professionnel. Si vous êtes à la recherche d'un
+            développeur pour votre entreprise ou votre projet, n'hésitez pas à me contacter.
           </Reveal>
         </p>
       </div>

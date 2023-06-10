@@ -51,9 +51,21 @@
     justify-content:flex-end;
 }
 
+@media only screen and (max-width: 1450px) {
+    .aboutText  {
+        font-size: 30px;
+    }
+    #blackbg, #whitebg {
+        height: 650px;
+    }
+}
+
 @media only screen and (max-width: 1300px) {
     .aboutText  {
         font-size: 30px;
+    }
+    #blackbg, #whitebg {
+        height: 750px;
     }
 }
 
