@@ -6,6 +6,7 @@ import projectKasa from '../../assets/images/project-1/project-1-card.png'
 import projectArgentBank from '../../assets/images/project-2/project-2-card.png'
 import projectLesPetitsPlats from '../../assets/images/project-3/project-3-card.png'
 import projectSportsee from '../../assets/images/project-4/project-4-card.png'
+import projectOhMyFood from '../../assets/images/project-5/project-5-card.png'
 
 export default function ProjectsContainer({ darkmode }) {
   return (
@@ -19,10 +20,10 @@ export default function ProjectsContainer({ darkmode }) {
           darkmode={darkmode}
         />
         <ProjectCard
-          title="Les Petits Plats"
-          url="les-petits-plats"
-          date="2023"
-          image={projectLesPetitsPlats}
+          title="OhMyFood"
+          url="oh-my-food"
+          date="2022"
+          image={projectOhMyFood}
           darkmode={darkmode}
         />
       </div>
@@ -35,6 +36,14 @@ export default function ProjectsContainer({ darkmode }) {
           darkmode={darkmode}
         />
         <ProjectCard title="Kasa" url="kasa" date="2023" image={projectKasa} darkmode={darkmode} />
+
+        <ProjectCard
+          title="Les Petits Plats"
+          url="les-petits-plats"
+          date="2023"
+          image={projectLesPetitsPlats}
+          darkmode={darkmode}
+        />
       </div>
     </div>
   )

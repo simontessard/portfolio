@@ -102,6 +102,35 @@ export const projects = [
     categorie: 'Openclassrooms',
     date: 2022,
     previousProject: 'kasa',
+    nextProject: 'oh-my-food',
+  },
+  {
+    id: 5,
+    name: 'Oh My Food',
+    url: 'oh-my-food',
+    mainIllustration: 'project-6-illustration.jpg',
+    illustration2: 'project-6-illustration-1.jpg',
+    illustration3: 'project-6-illustration-3.png',
+    illustration4: 'project-6-illustration-2.png',
+    illustration5: 'project-6-illustration-4.png',
+    description:
+      "C'est un site pour un restaurant fictif. L'application affiche les différents menus disponibles sur le site. Un page plus précise décrivant le menu s'affiche quand l'utilisateur clique sur un menu.",
+    explication1:
+      "L'objectif principal est d'optimiser la performance de la fonction de recherche pour avoir une recherche rapide et presque instantanée. En effet pendant que l'utilisateur effectue sa recherche, l'interface s'actualise en temps réel pour afficher les recettes correspondantes. Deux versions de cet algorithme de recherche ont été développé : une version avec boucle native et une autre avec une boucle objet. Pour comparer les performances de chacune d'entre elles l'outil JSBench a été utilisé.",
+    explication2:
+      "Une recherche par tags a aussi été développé. Les tags disponibles sont mis à jour si l'utilisateur a préalablement effectué une recherche principale. Un champs de recherche pour chaque catégorie permets d'efficacement trouver celui que l'on souhaite utiliser.",
+    explication3:
+      "Une recherche par tags a aussi été développé. Les tags disponibles sont mis à jour si l'utilisateur a préalablement effectué une recherche principale. Un champs de recherche pour chaque catégorie permets d'efficacement trouver celui que l'on souhaite utiliser.",
+    github: 'https://github.com/simontessard/Les-Petits-Plats-OCR',
+    skills: [
+      'Mettre en œuvre des effets CSS graphiques avancés',
+      'Mettre en place une structure de navigation pour un site web',
+      "Assurer la cohérence graphique d'un site web",
+      'Utiliser un système de gestion de versions pour le suivi du projet et son hébergement',
+    ],
+    categorie: 'Openclassrooms',
+    date: 2022,
+    previousProject: 'les-petits-plats',
     nextProject: 'argent-bank',
   },
 ]
