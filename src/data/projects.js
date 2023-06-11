@@ -114,13 +114,13 @@ export const projects = [
     illustration4: 'project-6-illustration-2.png',
     illustration5: 'project-6-illustration-4.png',
     description:
-      "C'est un site pour un restaurant fictif. L'application affiche les différents menus disponibles sur le site. Une page précisant le menu s'affiche quand l'utilisateur clique dessus. Le site est aussi responsive et contient de nombreuses animations CSS.",
+      "C'est un site regroupant plusieurs restaurants où l'on peut consulter leurs menus respectifs. L'application est responsive ((mobile, tablette et desktop)) mais en “mobile first” et contient de nombreuses animations CSS (coeur, loader etc...). Une page précisant les menus du restaurant s'affiche quand l'utilisateur clique dessus.",
     explication1:
-      "L'objectif principal est d'optimiser la performance de la fonction de recherche pour avoir une recherche rapide et presque instantanée. En effet pendant que l'utilisateur effectue sa recherche, l'interface s'actualise en temps réel pour afficher les recettes correspondantes. Deux versions de cet algorithme de recherche ont été développé : une version avec boucle native et une autre avec une boucle objet. Pour comparer les performances de chacune d'entre elles l'outil JSBench a été utilisé.",
+      "La page d'accueil est découpée en plusieurs parties : le header, la localisation, une première explication, une seconde explication, la grille des restaurants et le footer.",
     explication2:
       "Une recherche par tags a aussi été développé. Les tags disponibles sont mis à jour si l'utilisateur a préalablement effectué une recherche principale. Un champs de recherche pour chaque catégorie permets d'efficacement trouver celui que l'on souhaite utiliser.",
     explication3:
-      'Au clic sur un menu, une page détaillant le menu présente les plats à la carte et permets aussi de connaître ses prix en passant la souris au survol.',
+      "Au clic sur un restaurant, une page détaillant la carte s'affiche et présente les menus et les plats associés. L'utilisateur peut aussi de connaître ses prix au survol de la souris. Il compose son menu en cliquant sur l'icône « coeur » des plats qu'il souhaite déguster.",
     github: 'https://github.com/simontessard/Les-Petits-Plats-OCR',
     skills: [
       'Mettre en œuvre des effets CSS graphiques avancés',
