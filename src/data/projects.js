@@ -114,13 +114,13 @@ export const projects = [
     illustration4: 'project-6-illustration-2.png',
     illustration5: 'project-6-illustration-4.png',
     description:
-      "C'est un site pour un restaurant fictif. L'application affiche les différents menus disponibles sur le site. Un page plus précise décrivant le menu s'affiche quand l'utilisateur clique sur un menu.",
+      "C'est un site pour un restaurant fictif. L'application affiche les différents menus disponibles sur le site. Une page précisant le menu s'affiche quand l'utilisateur clique dessus. Le site est aussi responsive et contient de nombreuses animations CSS.",
     explication1:
       "L'objectif principal est d'optimiser la performance de la fonction de recherche pour avoir une recherche rapide et presque instantanée. En effet pendant que l'utilisateur effectue sa recherche, l'interface s'actualise en temps réel pour afficher les recettes correspondantes. Deux versions de cet algorithme de recherche ont été développé : une version avec boucle native et une autre avec une boucle objet. Pour comparer les performances de chacune d'entre elles l'outil JSBench a été utilisé.",
     explication2:
       "Une recherche par tags a aussi été développé. Les tags disponibles sont mis à jour si l'utilisateur a préalablement effectué une recherche principale. Un champs de recherche pour chaque catégorie permets d'efficacement trouver celui que l'on souhaite utiliser.",
     explication3:
-      "Une recherche par tags a aussi été développé. Les tags disponibles sont mis à jour si l'utilisateur a préalablement effectué une recherche principale. Un champs de recherche pour chaque catégorie permets d'efficacement trouver celui que l'on souhaite utiliser.",
+      'Au clic sur un menu, une page détaillant le menu présente les plats à la carte et permets aussi de connaître ses prix en passant la souris au survol.',
     github: 'https://github.com/simontessard/Les-Petits-Plats-OCR',
     skills: [
       'Mettre en œuvre des effets CSS graphiques avancés',
