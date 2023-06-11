@@ -12,22 +12,12 @@ export default function ProjectsContainer({ darkmode }) {
     <div className={`container-projects ${darkmode ? 'darkmode' : ''}`}>
       <div className="column">
         <ProjectCard
-          title="Argent Bank"
-          url="argent-bank"
-          date="2022"
-          image={projectArgentBank}
-          darkmode={darkmode}
-        />
-        <ProjectCard
           title="SportSee"
           url="sportsee"
           date="2023"
           image={projectSportsee}
           darkmode={darkmode}
         />
-      </div>
-      <div className="column reverse">
-        <ProjectCard title="Kasa" url="kasa" date="2023" image={projectKasa} darkmode={darkmode} />
         <ProjectCard
           title="Les Petits Plats"
           url="les-petits-plats"
@@ -35,6 +25,16 @@ export default function ProjectsContainer({ darkmode }) {
           image={projectLesPetitsPlats}
           darkmode={darkmode}
         />
+      </div>
+      <div className="column reverse">
+        <ProjectCard
+          title="Argent Bank"
+          url="argent-bank"
+          date="2022"
+          image={projectArgentBank}
+          darkmode={darkmode}
+        />
+        <ProjectCard title="Kasa" url="kasa" date="2023" image={projectKasa} darkmode={darkmode} />
       </div>
     </div>
   )
