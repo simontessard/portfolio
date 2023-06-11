@@ -9,9 +9,12 @@ import ProjectsList from './pages/ProjectsList/ProjectsList'
 import Project from './pages/Project/Project'
 import Information from './pages/Information/Information'
 
+import CustomCursor from './components/CustomCursor/CustomCursor'
+
 const Routing = () => {
   return (
     <BrowserRouter>
+      <CustomCursor />
       <Navbar />
       <Routes>
         <Route path="*" element={<Home />} />
