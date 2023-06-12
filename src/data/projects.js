@@ -114,11 +114,11 @@ export const projects = [
     illustration4: 'project-6-illustration-2.png',
     illustration5: 'project-6-illustration-4.png',
     description:
-      "C'est un site regroupant plusieurs restaurants où l'on peut consulter leurs menus respectifs. L'application est responsive ((mobile, tablette et desktop)) mais en “mobile first” et contient de nombreuses animations CSS (coeur, loader etc...). Une page précisant les menus du restaurant s'affiche quand l'utilisateur clique dessus.",
+      "Il s'agit d'un site qui réunit différents restaurants gastronomiques et permet aux utilisateurs de consulter leurs menus respectifs. L'application est adaptée à différents appareils, tels que les smartphones, les tablettes et les ordinateurs de bureau, en adoptant une approche "mobile first". De plus, elle comporte de nombreuses animations CSS attrayantes, telles que des cœurs animés, des loaders, etc. Lorsque l'utilisateur clique sur un restaurant, une page détaillant son menu s'affiche.",
     explication1:
-      "La page d'accueil est découpée en plusieurs parties : le header, la localisation, une première explication, une seconde explication, la grille des restaurants et le footer.",
+      "La page d'accueil est soigneusement conçue en respectant un brief créatif et des maquettes. Chaque partie, du header au footer, a été développée en prenant en compte ces éléments de référence pour assurer une cohérence visuelle et une expérience utilisateur harmonieuse.",
     explication2:
-      "Une recherche par tags a aussi été développé. Les tags disponibles sont mis à jour si l'utilisateur a préalablement effectué une recherche principale. Un champs de recherche pour chaque catégorie permets d'efficacement trouver celui que l'on souhaite utiliser.",
+      "Pour la réalisation du site, en particulier des grilles de cartes affichant le nom du restaurant et sa photo, j'ai utilisé des Flexbox dans des fichiers SCSS (Sass). Cette approche m'a permis d'obtenir une mise en page flexible et réactive, facilitant l'ajustement des éléments en fonction de la taille de l'écran. L'utilisation de SCSS m'a également offert des fonctionnalités avancées, telles que les variables, les mixins et les nesting, pour simplifier et organiser efficacement mon code CSS.",
     explication3:
       "Au clic sur un restaurant, une page détaillant la carte s'affiche et présente les menus et les plats associés. L'utilisateur peut aussi de connaître ses prix au survol de la souris. Il compose son menu en cliquant sur l'icône « coeur » des plats qu'il souhaite déguster.",
     github: 'https://github.com/simontessard/Les-Petits-Plats-OCR',
