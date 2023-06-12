@@ -114,7 +114,7 @@ export const projects = [
     illustration4: 'project-6-illustration-2.png',
     illustration5: 'project-6-illustration-4.png',
     description:
-      "Il s'agit d'un site qui réunit différents restaurants gastronomiques et permet aux utilisateurs de consulter leurs menus respectifs. L'application est adaptée à différents appareils, tels que les smartphones, les tablettes et les ordinateurs de bureau, en adoptant une approche "mobile first". De plus, elle comporte de nombreuses animations CSS attrayantes, telles que des cœurs animés, des loaders, etc. Lorsque l'utilisateur clique sur un restaurant, une page détaillant son menu s'affiche.",
+      "Il s'agit d'un site qui réunit différents restaurants gastronomiques et permet aux utilisateurs de consulter leurs menus respectifs. L'application est adaptée à différents appareils, tels que les smartphones, les tablettes et les ordinateurs de bureau, en adoptant une approche « Mobile first ». De plus, elle comporte de nombreuses animations CSS attrayantes, telles que des cœurs animés, des loaders, etc. Lorsque l'utilisateur clique sur un restaurant, une page détaillant son menu s'affiche.",
     explication1:
       "La page d'accueil est soigneusement conçue en respectant un brief créatif et des maquettes. Chaque partie, du header au footer, a été développée en prenant en compte ces éléments de référence pour assurer une cohérence visuelle et une expérience utilisateur harmonieuse.",
     explication2:
