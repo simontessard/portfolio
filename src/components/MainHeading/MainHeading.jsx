@@ -7,7 +7,9 @@ function MainHeading() {
   return (
     <main className="background-line">
       <BigTitle first="Simon" second="TESSARD" />
-      <p className="about-title fadeInLeft">→ FRONT-DEVELOPER</p>
+      <p className="about-title fadeInLeft">
+        → WEB-<br></br>DEVELOPER
+      </p>
       <MouseScrollDown />
     </main>
   )
