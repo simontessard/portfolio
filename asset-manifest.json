@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5aa30456.css",
-    "main.js": "/portfolio/static/js/main.998a3233.js",
+    "main.js": "/portfolio/static/js/main.a27d13dc.js",
     "static/media/project-6-illustration.jpg": "/portfolio/static/media/project-6-illustration.a4f8ff417d5edf70e6c0.jpg",
     "static/media/project-4-illustration.png": "/portfolio/static/media/project-4-illustration.2f2061ddb87211c36337.png",
     "static/media/project-6-illustration-1.jpg": "/portfolio/static/media/project-6-illustration-1.7117d0406a6abbc82d57.jpg",
@@ -15,7 +15,7 @@
     "static/media/project-4-illustration-5.png": "/portfolio/static/media/project-4-illustration-5.737a5fd8edb96d2348bd.png",
     "static/media/project-6-illustration-3.png": "/portfolio/static/media/project-6-illustration-3.1359f1e78779bbb01cc1.png",
     "static/media/project-1-card.png": "/portfolio/static/media/project-1-card.dcdf18e868567179867a.png",
-    "static/media/cv.pdf": "/portfolio/static/media/cv.e78f917bb06d2ff7ba5c.pdf",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.24623b7fd43e636ad0fd.pdf",
     "static/media/project-2-card.png": "/portfolio/static/media/project-2-card.fc7a039b822f49569e55.png",
     "static/media/project-5-illustration-4.png": "/portfolio/static/media/project-5-illustration-4.36a67fd8e07fd02f1546.png",
     "static/media/project-5-illustration-3.png": "/portfolio/static/media/project-5-illustration-3.3ea56e14129b21000040.png",
@@ -40,10 +40,10 @@
     "static/media/mouse.svg": "/portfolio/static/media/mouse.39deb97e187f1e39534ecd176ed1ee44.svg",
     "static/media/down-arrow.svg": "/portfolio/static/media/down-arrow.e831b98861b0f6918a9be7d114a46bcb.svg",
     "main.5aa30456.css.map": "/portfolio/static/css/main.5aa30456.css.map",
-    "main.998a3233.js.map": "/portfolio/static/js/main.998a3233.js.map"
+    "main.a27d13dc.js.map": "/portfolio/static/js/main.a27d13dc.js.map"
   },
   "entrypoints": [
     "static/css/main.5aa30456.css",
-    "static/js/main.998a3233.js"
+    "static/js/main.a27d13dc.js"
   ]
 }
