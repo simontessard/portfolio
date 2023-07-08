@@ -81,10 +81,10 @@
     .aboutText  {
         font-size: 16px;
         margin-inline: 2rem;
-        margin-top: 4rem;
+        margin-top: 6rem;
     }
     #blackbg, #whitebg {
-        height: 520px;
+        height: 550px;
     }
     #blackbg {
         width: 100%;
