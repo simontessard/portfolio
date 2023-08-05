@@ -35,6 +35,9 @@
     .skill-text {
         left: 40%;
     }
+    .skill-text p{
+        margin-left: -50%;
+    }
 }
 
 .skill { transition: all .3s ease-in-out; }
