@@ -10,6 +10,15 @@ function Parcours() {
       <div className="parcours-list">
         <Reveal>
           <div className="parcours-item">
+            <p>2023 - 2024 </p>
+            <p>
+              <span>Bac+5 en alternance :</span> Master « Développeur Full-Stack - Java et Angular »
+              chez OpenClassRooms
+            </p>
+          </div>
+        </Reveal>
+        <Reveal>
+          <div className="parcours-item">
             <p>2022 - 2023 </p>
             <p>
               <span>Bac+3/4 :</span> Bachelor « Développeur d'Applications - Javascript React » chez
