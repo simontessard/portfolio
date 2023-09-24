@@ -64,6 +64,22 @@ function Navbar() {
             open={open}
             setDelay={1.2}
           />
+          <div className="link-logo-container">
+            <MobileNavLink
+              name={AiFillGithub}
+              link="https://github.com/simontessard"
+              setOpen={setOpen}
+              open={open}
+              setDelay={1.6}
+            />
+            <MobileNavLink
+              name={AiFillLinkedin}
+              link="https://www.linkedin.com/in/simon-tessard-138733198/"
+              setOpen={setOpen}
+              open={open}
+              setDelay={1.8}
+            />
+          </div>
         </div>
       )}
     </header>
