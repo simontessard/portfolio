@@ -43,13 +43,26 @@ function Navbar() {
       {open && (
         <div className="vertical-navbar">
           <MobileNavLink name="ACCUEIL" link="/portfolio" setOpen={setOpen} open={open} />
-          <MobileNavLink name="PROJETS" link="/portfolio/projects" setOpen={setOpen} open={open} />
-          <MobileNavLink name="À PROPOS" link="/portfolio/about" setOpen={setOpen} open={open} />
+          <MobileNavLink
+            name="PROJETS"
+            link="/portfolio/projects"
+            setOpen={setOpen}
+            open={open}
+            setDelay={0.4}
+          />
+          <MobileNavLink
+            name="À PROPOS"
+            link="/portfolio/about"
+            setOpen={setOpen}
+            open={open}
+            setDelay={0.8}
+          />
           <MobileNavLink
             name="CONTACT"
             link="mailto:simon.tessard@gmail.com"
             setOpen={setOpen}
             open={open}
+            setDelay={1.2}
           />
         </div>
       )}
@@ -67,14 +80,14 @@ function DesktopNavLink({ link, name, logo }) {
   )
 }
 
-function MobileNavLink({ link, name, setOpen, open }) {
+function MobileNavLink({ link, name, setOpen, open, setDelay }) {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{
         duration: 1,
-        delay: 0.5,
+        delay: 0.4 + setDelay,
         ease: [0, 0.71, 0.2, 1.01],
       }}
       onClick={() => setOpen(!open)}
