@@ -16,7 +16,7 @@ function Skills() {
         <Reveal>
           <Skill
             title="FRONT"
-            description="HTML5 ; CSS (SASS, Tailwind, Bootstrap) ; Javascript (Jest, React, Angular)"
+            description="HTML5 ; CSS (SASS, Tailwind, Bootstrap) ; Javascript (Jest, React, Angular, Vue) ; Wordpress"
             image={skillPicture}
           />
         </Reveal>
