@@ -84,7 +84,7 @@
         margin-top: 4rem;
     }
     #blackbg, #whitebg {
-        height: 550px;
+        height: 500px;
     }
     #blackbg {
         width: 100%;
@@ -97,10 +97,15 @@
         padding-inline: 1rem;
         flex-direction: column;
         gap:25px;
+        align-items: center;
     }
     .about {
         padding-top: 5rem;
         padding-bottom: 3rem;
+        margin-right: 0;
+    }
+    .github-container {
+        justify-content:center;
     }
 }
 
