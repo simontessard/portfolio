@@ -9,8 +9,8 @@ function CustomCursor() {
 
   useEffect(() => {
     const handleCursor = (e) => {
-      setX(e.clientX - 20)
-      setY(e.clientY - 20)
+      setX(e.pageX - 20)
+      setY(e.pageY - 20)
     }
     window.addEventListener('mousemove', handleCursor)
     return () => {
