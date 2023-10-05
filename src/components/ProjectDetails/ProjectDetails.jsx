@@ -51,10 +51,10 @@ export default function ProjectDetails({
           </div>
         </Reveal>
         <div className="project-skills">
-          {skills.map((name) => (
-            <p>
-              <Reveal>- {name}</Reveal>
-            </p>
+          {skills.map((name, index) => (
+            <Reveal key={index}>
+              <p>- {name}</p>
+            </Reveal>
           ))}
         </div>
         <img src={firstIllustration} alt="" className="project-first-picture" />
