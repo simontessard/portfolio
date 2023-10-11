@@ -1,21 +1,24 @@
 # Portfolio
 
 This project was made in collaboration with Maxime Le bec who was in charge of the design.
-He designed the site by creating a figma model.
-Then I developed the model using React framework with pure CSS.
+He designed the site in Figma and I brought it to life using React and pure CSS.
 
 ## 🛠 Skills
 
 - React/Javascript, HTML, CSS.
-- React Library : Framer-motion.
+- Library used : Framer-motion.
 
-## Roadmap
+## To-do list
 
 - Add more animations
 
-- Add page transitions (done but can be improved)
+- Add a translation mode to have the site in English
 
-- Add more projects
+- Better page transitions
+
+- Add a blog page
+
+- Support more projects
 
 ## Author
 
