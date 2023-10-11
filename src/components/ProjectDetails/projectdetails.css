@@ -112,7 +112,8 @@
 
 @media only screen and (max-width: 600px) {
     .project-information {
-        padding:3rem;
+        padding-block:3rem;
+        padding-inline:1.5rem;
         gap: 3rem;
     }
     .project-information {
