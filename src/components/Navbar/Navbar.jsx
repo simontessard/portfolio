@@ -99,8 +99,8 @@ function DesktopNavLink({ link, name, logo }) {
 function MobileNavLink({ link, name, setOpen, open, setDelay }) {
   return (
     <motion.div
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 1, scale: 1 }}
+      initial={{ zIndex: 1000, opacity: 0, scale: 0.5 }}
+      animate={{ zIndex: 1000, opacity: 1, scale: 1 }}
       transition={{
         duration: 1,
         delay: 0.4 + setDelay,
