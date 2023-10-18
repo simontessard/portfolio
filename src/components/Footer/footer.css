@@ -45,7 +45,7 @@ footer p {
 
 @media only screen and (max-width: 1000px) {
     footer {
-        padding-inline: 2rem;
+        padding-inline: 1rem;
     }
     footer h3 {
         font-size: 18px;
