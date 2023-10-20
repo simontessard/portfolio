@@ -8,9 +8,9 @@ He designed the site in Figma and I brought it to life using React and pure CSS.
 - React/Javascript, HTML, CSS.
 - Library used : Framer-motion.
 
-## To-do list
+## To-do list for V2
 
-- Add more animations
+- Add more animations (cursor animations)
 
 - Add a translation mode to have the site in English
 
